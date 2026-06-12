@@ -1,16 +1,12 @@
 using UnityEngine;
 
-public class Letter : MonoBehaviour
+[CreateAssetMenu(fileName = "New Letter", menuName = "ScriptableObjects/Letter", order = 1)]
+public class Letter : ScriptableObject
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public string title, heading;
+    public Segment[] segments;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    publ ic class Segment {
+        public sting textbody;
+    }   
 }
