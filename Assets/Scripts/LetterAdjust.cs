@@ -42,7 +42,6 @@ public class LetterAdjust : MonoBehaviour
                 message += segments[i].text;
                 break;
             }
-            
         }  
         message += "";
         Debug.Log(message);
