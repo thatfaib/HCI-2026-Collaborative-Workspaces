@@ -7,15 +7,16 @@ using TMPro;
 public class LetterGenerator : MonoBehaviour
 {
     public Letter letter;
-    public TextMeshProUGUI titleSegment;
+    public TextMeshPro titleSegment;
     public GameObject textSegment;
+  
     
     
     void Start()
     {
-    
-        titleSegment.textInput.text = letter.title
-        spawnSegments()
+        
+        titleSegment.text = letter.title;
+        spawnSegments();
     }
 
     void Update()
@@ -23,10 +24,15 @@ public class LetterGenerator : MonoBehaviour
         
     }
 
-    void spawnSegments(){
-        foreach (segment in letter.segments){
-            t.
-            Instantiate()
+    void spawnSegments() {
+        
+        foreach (var segment in letter.segments)
+        {   
+            GameObject segmentObject = Instantiate(textSegment,this.transform);
+            TextMeshPro segmentText = segmentObject.GetComponent<TextMeshPro>();
+            segmentText.text= segment;
         }
+        return;
     }
+    
 }

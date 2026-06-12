@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec155c40209d75458bccb8773824faf, type: 3}
+  m_Name: AssuranceLetter
+  m_EditorClassIdentifier: Assembly-CSharp::Letter
+  title: "Betreff: Zus\xE4tzliche Angaben zu Ihrem Antrag auf Kosten\xFCbernahme
+    f\xFCr Rehabilitationsma\xDFnahmen"
+  heading: 
+  segments:
+  - "Sehr geehrter Herr Muster, vielen Dank f\xFCr Ihren Antrag auf Kosten\xFCbernahme
+    f\xFCr ambulante Rehabilitationsleistungen sowie die \xDCbersendung der bisher
+    eingereichten Unterlagen. "
+  - "Nach sorgf\xE4ltiger Pr\xFCfung Ihres Antrags konnten wir feststellen, dass
+    f\xFCr eine abschlie\xDFende leistungsrechtliche Beurteilung noch weitere Informationen
+    erforderlich sind. Die derzeit vorliegenden Unterlagen erm\xF6glichen uns noch
+    keine vollst\xE4ndige Einsch\xE4tzung der medizinischen Notwendigkeit sowie des
+    Umfangs der beantragten Ma\xDFnahmen."
+  - "Nach sorgf\xE4ltiger Pr\xFCfung Ihres Antrags konnten wir feststellen, dass
+    f\xFCr eine abschlie\xDFende leistungsrechtliche Beurteilung noch weitere Informationen
+    erforderlich sind. Die derzeit vorliegenden Unterlagen erm\xF6glichen uns noch
+    keine vollst\xE4ndige Einsch\xE4tzung der medizinischen Notwendigkeit sowie des
+    Umfangs der beantragten Ma\xDFnahmen."
+  - "Zur weiteren Bearbeitung Ihres Antrags bitten wir Sie daher, uns erg\xE4nzende
+    Angaben zu den folgenden Punkten zur Verf\xFCgung zu stellen: Ihrem aktuellen
+    Behandlungs- und Therapieplan, der Art, Dauer und H\xE4ufigkeit der derzeit durchgef\xFChrten
+    therapeutischen Ma\xDFnahmen, Ihrem aktuellen Unterst\xFCtzungs- und Hilfebedarf
+    im Alltag, gegebenenfalls bestehenden Einschr\xE4nkungen Ihrer Mobilit\xE4t und
+    Selbstst\xE4ndigkeit, bereits erfolgten oder geplanten rehabilitativen Ma\xDFnahmen. "
+  - "Zur Erhebung der erforderlichen Informationen haben wir diesem Schreiben ein
+    entsprechendes Formular beigef\xFCgt. Wir bitten Sie, dieses vollst\xE4ndig und
+    wahrheitsgem\xE4\xDF auszuf\xFCllen. Sofern erforderlich, k\xF6nnen Sie zus\xE4tzliche
+    \xE4rztliche Stellungnahmen, Befundberichte oder sonstige medizinische Unterlagen
+    beif\xFCgen, die zur Kl\xE4rung Ihres Antrags beitragen."
+  - "Zur Erhebung der erforderlichen Informationen haben wir diesem Schreiben ein
+    entsprechendes Formular beigef\xFCgt. Wir bitten Sie, dieses vollst\xE4ndig und
+    wahrheitsgem\xE4\xDF auszuf\xFCllen. Sofern erforderlich, k\xF6nnen Sie zus\xE4tzliche
+    \xE4rztliche Stellungnahmen, Befundberichte oder sonstige medizinische Unterlagen
+    beif\xFCgen, die zur Kl\xE4rung Ihres Antrags beitragen."
+  - "Bitte senden Sie die ausgef\xFCllten Unterlagen innerhalb von 14 Kalendertagen
+    nach Erhalt dieses Schreibens an die unten angegebene Anschrift zur\xFCck. Alternativ
+    k\xF6nnen Sie die Unterlagen auch \xFCber unser Online-Kundenportal oder per
+    verschl\xFCsselter E-Mail einreichen. "
+  - "Bitte senden Sie die ausgef\xFCllten Unterlagen innerhalb von 14 Kalendertagen
+    nach Erhalt dieses Schreibens an die unten angegebene Anschrift zur\xFCck. Alternativ
+    k\xF6nnen Sie die Unterlagen auch \xFCber unser Online-Kundenportal oder per
+    verschl\xFCsselter E-Mail einreichen. "
+  - "Bitte senden Sie die ausgef\xFCllten Unterlagen innerhalb von 14 Kalendertagen
+    nach Erhalt dieses Schreibens an die unten angegebene Anschrift zur\xFCck. Alternativ
+    k\xF6nnen Sie die Unterlagen auch \xFCber unser Online-Kundenportal oder per
+    verschl\xFCsselter E-Mail einreichen. "
+  - "Bitte senden Sie die ausgef\xFCllten Unterlagen innerhalb von 14 Kalendertagen
+    nach Erhalt dieses Schreibens an die unten angegebene Anschrift zur\xFCck. Alternativ
+    k\xF6nnen Sie die Unterlagen auch \xFCber unser Online-Kundenportal oder per
+    verschl\xFCsselter E-Mail einreichen. "
+  - "Bitte senden Sie die ausgef\xFCllten Unterlagen innerhalb von 14 Kalendertagen
+    nach Erhalt dieses Schreibens an die unten angegebene Anschrift zur\xFCck. Alternativ
+    k\xF6nnen Sie die Unterlagen auch \xFCber unser Online-Kundenportal oder per
+    verschl\xFCsselter E-Mail einreichen. "
+  - "Bitte senden Sie die ausgef\xFCllten Unterlagen innerhalb von 14 Kalendertagen
+    nach Erhalt dieses Schreibens an die unten angegebene Anschrift zur\xFCck. Alternativ
+    k\xF6nnen Sie die Unterlagen auch \xFCber unser Online-Kundenportal oder per
+    verschl\xFCsselter E-Mail einreichen. "

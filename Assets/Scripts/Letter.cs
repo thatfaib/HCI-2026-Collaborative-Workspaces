@@ -4,9 +4,7 @@ using UnityEngine;
 public class Letter : ScriptableObject
 {
     public string title, heading;
-    public Segment[] segments;
+    public string[] segments;
 
-    publ ic class Segment {
-        public sting textbody;
-    }   
+     
 }
