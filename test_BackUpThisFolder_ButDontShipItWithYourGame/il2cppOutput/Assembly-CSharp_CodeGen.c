@@ -1,0 +1,108 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void Letter__ctor_m9DC949C5BBDFCD68699909CCBF9C038DAA22CA50 (void);
+extern void LetterAdjust_Start_m7CA2D9FD55EB4558FA6E6A25F90ED0658A6B04EF (void);
+extern void LetterAdjust_CollectSegments_m310292896B28CCFC320E889D46C9274567AFF5BE (void);
+extern void LetterAdjust_changeFontSize_m1E9DD9F96448E78B0C3A8F8952BBE36CE86BE062 (void);
+extern void LetterAdjust_Scroll_mA9A69D795F3125CE24D230C6A80CBB82A6FC5457 (void);
+extern void LetterAdjust__ctor_mB67E7FA39CFB203DC86823E2BA636A4B2ED56217 (void);
+extern void U3CCollectSegmentsU3Ed__4__ctor_mA5178B96EBDA48291CCB5CB7CD7EE5BFC3266C42 (void);
+extern void U3CCollectSegmentsU3Ed__4_System_IDisposable_Dispose_m6FE4B976BAFBADA85A27FDAE9B25F26643B7CD38 (void);
+extern void U3CCollectSegmentsU3Ed__4_MoveNext_mB9024A5B9E5D51E68948B500ABFCF782EAEEE034 (void);
+extern void U3CCollectSegmentsU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4EC1C17BFB520FF40725343AAB21CA7C07DBC5D4 (void);
+extern void U3CCollectSegmentsU3Ed__4_System_Collections_IEnumerator_Reset_m5F0E62EDED0AD7A5ED6ECAC2E41C37A9CC850472 (void);
+extern void U3CCollectSegmentsU3Ed__4_System_Collections_IEnumerator_get_Current_mE68D9A2130FB51790FCBA44181CBB05CE8C23DD5 (void);
+extern void LetterGenerator_Start_mBE3DECCBDC231E475727EAAC91D83C931376C636 (void);
+extern void LetterGenerator_Update_m1E1A7CD1C66366739434DF58BF833459446BAE3F (void);
+extern void LetterGenerator_spawnSegments_m8B8C05AFAB4C0FFADE0869F67F2C0EE7194E9DE7 (void);
+extern void LetterGenerator__ctor_mAFCDB72AEE6DBA6711F8B6E0E4D41C95C355CE70 (void);
+extern void ToggleColorDriver_Start_mC4DFDAC4EEC229A76287A513FBC505290ADA1168 (void);
+extern void ToggleColorDriver_SetHover_m58F6C62796129E5C883563C1245E95B71E2FEAE2 (void);
+extern void ToggleColorDriver_UpdateColor_m5DE2239E6AF4A1BC115A17C752BDD002F21D0B38 (void);
+extern void ToggleColorDriver__ctor_mA3228B70AB76837DFA524F44241968FECD9C7A2E (void);
+extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
+extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[24] = 
+{
+	Letter__ctor_m9DC949C5BBDFCD68699909CCBF9C038DAA22CA50,
+	LetterAdjust_Start_m7CA2D9FD55EB4558FA6E6A25F90ED0658A6B04EF,
+	LetterAdjust_CollectSegments_m310292896B28CCFC320E889D46C9274567AFF5BE,
+	LetterAdjust_changeFontSize_m1E9DD9F96448E78B0C3A8F8952BBE36CE86BE062,
+	LetterAdjust_Scroll_mA9A69D795F3125CE24D230C6A80CBB82A6FC5457,
+	LetterAdjust__ctor_mB67E7FA39CFB203DC86823E2BA636A4B2ED56217,
+	U3CCollectSegmentsU3Ed__4__ctor_mA5178B96EBDA48291CCB5CB7CD7EE5BFC3266C42,
+	U3CCollectSegmentsU3Ed__4_System_IDisposable_Dispose_m6FE4B976BAFBADA85A27FDAE9B25F26643B7CD38,
+	U3CCollectSegmentsU3Ed__4_MoveNext_mB9024A5B9E5D51E68948B500ABFCF782EAEEE034,
+	U3CCollectSegmentsU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4EC1C17BFB520FF40725343AAB21CA7C07DBC5D4,
+	U3CCollectSegmentsU3Ed__4_System_Collections_IEnumerator_Reset_m5F0E62EDED0AD7A5ED6ECAC2E41C37A9CC850472,
+	U3CCollectSegmentsU3Ed__4_System_Collections_IEnumerator_get_Current_mE68D9A2130FB51790FCBA44181CBB05CE8C23DD5,
+	LetterGenerator_Start_mBE3DECCBDC231E475727EAAC91D83C931376C636,
+	LetterGenerator_Update_m1E1A7CD1C66366739434DF58BF833459446BAE3F,
+	LetterGenerator_spawnSegments_m8B8C05AFAB4C0FFADE0869F67F2C0EE7194E9DE7,
+	LetterGenerator__ctor_mAFCDB72AEE6DBA6711F8B6E0E4D41C95C355CE70,
+	ToggleColorDriver_Start_mC4DFDAC4EEC229A76287A513FBC505290ADA1168,
+	ToggleColorDriver_SetHover_m58F6C62796129E5C883563C1245E95B71E2FEAE2,
+	ToggleColorDriver_UpdateColor_m5DE2239E6AF4A1BC115A17C752BDD002F21D0B38,
+	ToggleColorDriver__ctor_mA3228B70AB76837DFA524F44241968FECD9C7A2E,
+	Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6,
+	Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[24] = 
+{
+	18926,
+	18926,
+	18705,
+	14469,
+	18926,
+	18926,
+	14286,
+	18926,
+	18475,
+	18705,
+	18926,
+	18705,
+	18926,
+	18926,
+	18926,
+	18926,
+	18926,
+	14141,
+	14141,
+	18926,
+	18926,
+	18926,
+	31450,
+	18926,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	24,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
