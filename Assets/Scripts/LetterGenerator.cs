@@ -19,11 +19,6 @@ public class LetterGenerator : MonoBehaviour
         spawnSegments();
     }
 
-    void Update()
-    {
-        
-    }
-
     void spawnSegments() {
         
         foreach (var segment in letter.segments)
