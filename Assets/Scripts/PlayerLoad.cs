@@ -11,7 +11,7 @@ public class PlayerLoad : MonoBehaviour
 
     IEnumerator resetPosition(){
         yield return new WaitForSeconds(0.02f);
-          this.transform.position = new Vector3(0,0.6f,-0.6f);
+          this.transform.position = new Vector3(0.5f,0f,-0.3f);
     }
 
    

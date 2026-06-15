@@ -47,6 +47,16 @@ extern void U3CresetPositionU3Ed__1_System_Collections_IEnumerator_Reset_mC36912
 extern void U3CresetPositionU3Ed__1_System_Collections_IEnumerator_get_Current_mBB06E98058BEAD7A1B8C5772C61C1894754CDFA2 (void);
 extern void Pokecube_up_mC6ED924EC0A86489E67FFF141F4940E16C6944C1 (void);
 extern void Pokecube__ctor_m9914E26104685C3852DAE5B6AF944A1A00CE22E5 (void);
+extern void ScrollManager_Start_m1A9CCD31A8F7E23F243802592D906D8E1F08D473 (void);
+extern void ScrollManager_scrolled_m455EDDF8714030A661C0D53373915EB52ABB31B1 (void);
+extern void ScrollManager_starter_mBC5353DF1E35AB9F7B6B6D63414725946D4E13ED (void);
+extern void ScrollManager__ctor_mE75F39CA85137B0DF3216BACE17145019124034B (void);
+extern void U3CstarterU3Ed__8__ctor_m88D5430D709D564F03BAB3F6353F7D45FC766A5F (void);
+extern void U3CstarterU3Ed__8_System_IDisposable_Dispose_mF29C5DA06B26222DF80FEF6F7643CF8315CD5C3F (void);
+extern void U3CstarterU3Ed__8_MoveNext_mFA59DB126FEA16D548DBC18C1A8F3C514B2B5AFF (void);
+extern void U3CstarterU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m23C66731E96768AF552C93ADBF95016D3B34C7BC (void);
+extern void U3CstarterU3Ed__8_System_Collections_IEnumerator_Reset_m87E5A387FFA7C0BE2ABAA0436E675A441F4A309B (void);
+extern void U3CstarterU3Ed__8_System_Collections_IEnumerator_get_Current_mEDE9F06512F858C8EFF49565312B7AC274316699 (void);
 extern void sizeToggle_Start_mF537B84E568D6A28759DF2E86B33F848729B57B4 (void);
 extern void sizeToggle_Update_m6249524382B6727D83F2924A1250DC4FDD49BED4 (void);
 extern void sizeToggle__ctor_mD10FAE371D9B74045487D2A824A9A2F2B0290159 (void);
@@ -54,7 +64,7 @@ extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
 extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[47] = 
+static Il2CppMethodPointer s_methodPointers[57] = 
 {
 	ButtonManager_Start_m1031E938A2FB8D85F993AA7DF29D06DAF0CDF930,
 	ButtonManager_buta_mCAE35C622154872663F3698B0D59979AB8CC0150,
@@ -96,6 +106,16 @@ static Il2CppMethodPointer s_methodPointers[47] =
 	U3CresetPositionU3Ed__1_System_Collections_IEnumerator_get_Current_mBB06E98058BEAD7A1B8C5772C61C1894754CDFA2,
 	Pokecube_up_mC6ED924EC0A86489E67FFF141F4940E16C6944C1,
 	Pokecube__ctor_m9914E26104685C3852DAE5B6AF944A1A00CE22E5,
+	ScrollManager_Start_m1A9CCD31A8F7E23F243802592D906D8E1F08D473,
+	ScrollManager_scrolled_m455EDDF8714030A661C0D53373915EB52ABB31B1,
+	ScrollManager_starter_mBC5353DF1E35AB9F7B6B6D63414725946D4E13ED,
+	ScrollManager__ctor_mE75F39CA85137B0DF3216BACE17145019124034B,
+	U3CstarterU3Ed__8__ctor_m88D5430D709D564F03BAB3F6353F7D45FC766A5F,
+	U3CstarterU3Ed__8_System_IDisposable_Dispose_mF29C5DA06B26222DF80FEF6F7643CF8315CD5C3F,
+	U3CstarterU3Ed__8_MoveNext_mFA59DB126FEA16D548DBC18C1A8F3C514B2B5AFF,
+	U3CstarterU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m23C66731E96768AF552C93ADBF95016D3B34C7BC,
+	U3CstarterU3Ed__8_System_Collections_IEnumerator_Reset_m87E5A387FFA7C0BE2ABAA0436E675A441F4A309B,
+	U3CstarterU3Ed__8_System_Collections_IEnumerator_get_Current_mEDE9F06512F858C8EFF49565312B7AC274316699,
 	sizeToggle_Start_mF537B84E568D6A28759DF2E86B33F848729B57B4,
 	sizeToggle_Update_m6249524382B6727D83F2924A1250DC4FDD49BED4,
 	sizeToggle__ctor_mD10FAE371D9B74045487D2A824A9A2F2B0290159,
@@ -104,7 +124,7 @@ static Il2CppMethodPointer s_methodPointers[47] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[47] = 
+static const int32_t s_InvokerIndices[57] = 
 {
 	18926,
 	14141,
@@ -147,6 +167,16 @@ static const int32_t s_InvokerIndices[47] =
 	18926,
 	18926,
 	18926,
+	14469,
+	18705,
+	18926,
+	14286,
+	18926,
+	18475,
+	18705,
+	18926,
+	18705,
+	18926,
 	18926,
 	18926,
 	18926,
@@ -158,7 +188,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	47,
+	57,
 	s_methodPointers,
 	0,
 	NULL,
