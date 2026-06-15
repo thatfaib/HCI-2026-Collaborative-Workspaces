@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec155c40209d75458bccb8773824faf, type: 3}
+  m_Name: Amtsgericht
+  m_EditorClassIdentifier: Assembly-CSharp::Letter
+  title: Amtsgericht
+  heading: 
+  segments:
+  - 'Amtsgericht Musterstadt Abteilung Betreuungssachen Gerichtsplatz 1 12345 Musterstadt '
+  - 'Aktenzeichen: 17 XVII 245/26 '
+  - 'Datum: 12.06.2026 '
+  - "Betreff: Anh\xF6rung im Verfahren zur Pr\xFCfung einer rechtlichen Betreuung"
+  - 'Sehr geehrter Herr Schneider, '
+  - "im Rahmen des beim Amtsgericht Musterstadt anh\xE4ngigen Verfahren zur Pr\xFCfung
+    der Einrichtung einer rechtlichen Betreuung f\xFCr Sie wird derzeit gepr\xFCft,
+    ob und in welchen Lebensbereichen Unterst\xFCtzungsbedarf besteht. "
+  - "Nach den dem Gericht vorliegenden Unterlagen bestehen Hinweise darauf, dass
+    Sie m\xF6glicherweise Unterst\xFCtzung bei der Regelung bestimmter Angelegenheiten
+    ben\xF6tigen. Hierzu z\xE4hlen insbesondere die Bereiche Gesundheitsf\xFCrsorge,
+    Beh\xF6rdenangelegenheiten sowie finanzielle Angelegenheiten."
+  - "Zur weiteren Sachverhaltsaufkl\xE4rung ist eine pers\xF6nliche Anh\xF6rung vorgesehen.
+    Der Anh\xF6rungstermin wurde festgesetzt auf: "
+  - 'Datum: 02.07.2026 Uhrzeit: 10:30 Uhr Ort: Amtsgericht Musterstadt, Raum 204 '
+  - "Sie haben das Recht, sich w\xE4hrend des Verfahrens von einer Vertrauensperson
+    begleiten zu lassen. Zudem k\xF6nnen Sie dem Gericht mitteilen, ob Sie eine bestimmte
+    Person als Betreuerin oder Betreuer w\xFCnschen. Das Gericht wird diesen Wunsch
+    bei seiner Entscheidung nach M\xF6glichkeit ber\xFCcksichtigen. "
+  - "Sie haben au\xDFerdem das Recht, Einsicht in die Verfahrensakte zu beantragen. "
+  - "Sofern Sie aufgrund einer Behinderung, Erkrankung oder anderer pers\xF6nlicher
+    Umst\xE4nde besondere Unterst\xFCtzung f\xFCr die Teilnahme an der Anh\xF6rung
+    ben\xF6tigen, teilen Sie uns dies bitte rechtzeitig mit. "
+  - "Zur Vorbereitung des Anh\xF6rungstermins bitten wir Sie, das beigef\xFCgte Formular
+    vollst\xE4ndig auszuf\xFCllen und bis sp\xE4testens 25.06.2026 an das Gericht
+    zur\xFCckzusenden. "
+  - "Bitte geben Sie insbesondere Auskunft zu folgenden Punkten: Besteht derzeit
+    Unterst\xFCtzung durch Angeh\xF6rige oder andere Personen? In welchen Bereichen
+    w\xFCnschen Sie Hilfe? Gibt es Personen, die Sie als rechtliche Betreuungsperson
+    vorschlagen m\xF6chten? Ben\xF6tigen Sie Unterst\xFCtzung bei der Kommunikation
+    mit Beh\xF6rden? Ben\xF6tigen Sie besondere Unterst\xFCtzung w\xE4hrend des Anh\xF6rungstermins? "
+  - "Sollten Sie den Anh\xF6rungstermin aus gesundheitlichen oder anderen wichtigen
+    Gr\xFCnden nicht wahrnehmen k\xF6nnen, teilen Sie uns dies bitte unverz\xFCglich
+    schriftlich mit. "
+  - "Wir weisen darauf hin, dass die Entscheidung im Verfahren auf Grundlage der
+    dem Gericht vorliegenden Informationen getroffen wird. Sofern das ausgef\xFCllte
+    Formular nicht fristgerecht eingeht, kann dies die weitere Bearbeitung des Verfahrens
+    verz\xF6gern. "
+  - "F\xFCr R\xFCckfragen wenden Sie sich bitte an die Gesch\xE4ftsstelle der Abteilung
+    Betreuungssachen unter der Telefonnummer 030 / 12345678."
+  - "Mit freundlichen Gr\xFC\xDFen  Amtsgericht Musterstadt  Abteilung Betreuungssachen "

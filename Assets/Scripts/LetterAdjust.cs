@@ -28,7 +28,7 @@ public class LetterAdjust : MonoBehaviour
         foreach (var segment in segments)
         {
             segment.fontSize = fontSize;
-            requiredHeight += segment.preferredHeight;
+            requiredHeight += segment.preferredHeight + 0.5f;
         }
         rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical,requiredHeight);
    }

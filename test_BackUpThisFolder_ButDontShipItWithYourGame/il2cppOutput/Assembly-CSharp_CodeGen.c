@@ -12,6 +12,10 @@ extern void ButtonManager_buta_mCAE35C622154872663F3698B0D59979AB8CC0150 (void);
 extern void ButtonManager_butb_m5F961D7611352EBA96F904366CD6FC155C6024D7 (void);
 extern void ButtonManager_Update_m8A6A02F642A23DDDD0D1C1B1EB563E144AE12590 (void);
 extern void ButtonManager__ctor_m7DBD91D2AF27494F6AC7DC74DE679919AB1DD71F (void);
+extern void JumpingButtons_Start_mE2404C732E9122C7D46F10D76ED9E8A7996E06E1 (void);
+extern void JumpingButtons_buta_mF8161C900222FB36A089EA908F434AB48E3393D9 (void);
+extern void JumpingButtons_butb_mED3579457DE9041DAA58A3BEC168214135B75870 (void);
+extern void JumpingButtons__ctor_m81F002D87E3E0F91EC5E52FDAD331C0ACA539E6E (void);
 extern void Letter__ctor_m9DC949C5BBDFCD68699909CCBF9C038DAA22CA50 (void);
 extern void LetterAdjust_Start_m7CA2D9FD55EB4558FA6E6A25F90ED0658A6B04EF (void);
 extern void LetterAdjust_CollectSegments_m310292896B28CCFC320E889D46C9274567AFF5BE (void);
@@ -38,13 +42,17 @@ extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
 extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[31] = 
+static Il2CppMethodPointer s_methodPointers[35] = 
 {
 	ButtonManager_Start_m1031E938A2FB8D85F993AA7DF29D06DAF0CDF930,
 	ButtonManager_buta_mCAE35C622154872663F3698B0D59979AB8CC0150,
 	ButtonManager_butb_m5F961D7611352EBA96F904366CD6FC155C6024D7,
 	ButtonManager_Update_m8A6A02F642A23DDDD0D1C1B1EB563E144AE12590,
 	ButtonManager__ctor_m7DBD91D2AF27494F6AC7DC74DE679919AB1DD71F,
+	JumpingButtons_Start_mE2404C732E9122C7D46F10D76ED9E8A7996E06E1,
+	JumpingButtons_buta_mF8161C900222FB36A089EA908F434AB48E3393D9,
+	JumpingButtons_butb_mED3579457DE9041DAA58A3BEC168214135B75870,
+	JumpingButtons__ctor_m81F002D87E3E0F91EC5E52FDAD331C0ACA539E6E,
 	Letter__ctor_m9DC949C5BBDFCD68699909CCBF9C038DAA22CA50,
 	LetterAdjust_Start_m7CA2D9FD55EB4558FA6E6A25F90ED0658A6B04EF,
 	LetterAdjust_CollectSegments_m310292896B28CCFC320E889D46C9274567AFF5BE,
@@ -72,12 +80,16 @@ static Il2CppMethodPointer s_methodPointers[31] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[31] = 
+static const int32_t s_InvokerIndices[35] = 
 {
 	18926,
 	14141,
 	14141,
 	18926,
+	18926,
+	18926,
+	14141,
+	14141,
 	18926,
 	18926,
 	18926,
@@ -110,7 +122,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	31,
+	35,
 	s_methodPointers,
 	0,
 	NULL,

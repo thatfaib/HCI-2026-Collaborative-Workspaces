@@ -83,6 +83,7 @@ struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
 struct ITextPreprocessor_tDBB49C8B68D7B80E8D233B9D9666C43981EFAAB9;
 struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E;
 struct InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382;
+struct JumpingButtons_tE6808DDCD5E16F50999AD7D189986D5FC5B71209;
 struct LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A;
 struct Letter_t83D09CA3E6072C9F786F1B3E362B451913633B71;
 struct LetterAdjust_t0DF30F7890AC257146F38ACE43A19B72D5F81C67;
@@ -139,8 +140,8 @@ IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_i
 IL2CPP_EXTERN_C RuntimeClass* U3CCollectSegmentsU3Ed__5_t35F2AD255B2B2D3C9F201DABE2FFF3C8F140670F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UnityAction_1_t8EC357AF4FBD2A0C4A575C4BBD0B3A81029E43A9_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____03FC2FA9B495019F1FA7B335E7524F1D9C17308B8BAE04F0879B8DCCD61B0C62_FieldInfo_var;
-IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____72277EC29EFEF22E146AB850C9BB1E356B184E223596E2029ED6BC8A78B074D0_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____8F7E241721EB981E9436FE43F98630D658B62FEB8C172730BBAEFC3C69966218_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____A8E290E82CD414C1F297AA719912D4C580D7958B0F1A4E47E297FE891827C054_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral1AB530867314FA262823AC7564C38FD9F9D2ABBD;
 IL2CPP_EXTERN_C String_t* _stringLiteral7B1DD1A073B5200CFE3AA90CF606368318A97519;
 IL2CPP_EXTERN_C String_t* _stringLiteralB20507EAE430B40B8BDCE19999D331C3AF610DBB;
@@ -153,6 +154,8 @@ IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisRectTransform_t6C
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentsInChildren_TisTextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_m92EAA2900B924D05130FA09ACADBD35B9880C8A9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentsInChildren_TisToggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F_m1DCB9BFC86BB0809B5EE5AEB935E0D4067D3A8EE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisTextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_m788ADD6C98FD3A1039F72A865AB7D335AEA6116F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* JumpingButtons_buta_mF8161C900222FB36A089EA908F434AB48E3393D9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* JumpingButtons_butb_mED3579457DE9041DAA58A3BEC168214135B75870_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ToggleColorDriver_UpdateColor_m5DE2239E6AF4A1BC115A17C752BDD002F21D0B38_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CCollectSegmentsU3Ed__5_System_Collections_IEnumerator_Reset_mC6F487A0C30D46128D845C79663629C631B9841E_RuntimeMethod_var;
@@ -499,7 +502,7 @@ struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_com : 
 	float ___m_Seconds;
 };
 #pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D138_tD5A7318E00B672287A4775831623B21A69B688D0 
+struct __StaticArrayInitTypeSizeU3D158_t6219F84990347CE2106D09E19D77AC87E67A0D93 
 {
 	union
 	{
@@ -509,12 +512,12 @@ struct __StaticArrayInitTypeSizeU3D138_tD5A7318E00B672287A4775831623B21A69B688D0
 			{
 			};
 		};
-		uint8_t __StaticArrayInitTypeSizeU3D138_tD5A7318E00B672287A4775831623B21A69B688D0__padding[138];
+		uint8_t __StaticArrayInitTypeSizeU3D158_t6219F84990347CE2106D09E19D77AC87E67A0D93__padding[158];
 	};
 };
 #pragma pack(pop, tp)
 #pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D274_t3DB24C9CFC77B32FEFCA0D5C1C6151812A660818 
+struct __StaticArrayInitTypeSizeU3D315_t31C4B15922AAC720FE1B7F1910E24F69F2E79FC6 
 {
 	union
 	{
@@ -524,7 +527,7 @@ struct __StaticArrayInitTypeSizeU3D274_t3DB24C9CFC77B32FEFCA0D5C1C6151812A660818
 			{
 			};
 		};
-		uint8_t __StaticArrayInitTypeSizeU3D274_t3DB24C9CFC77B32FEFCA0D5C1C6151812A660818__padding[274];
+		uint8_t __StaticArrayInitTypeSizeU3D315_t31C4B15922AAC720FE1B7F1910E24F69F2E79FC6__padding[315];
 	};
 };
 #pragma pack(pop, tp)
@@ -1224,6 +1227,17 @@ struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5  : public Transfo
 struct ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* ___upbutton;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___upimg;
+	Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* ___downbutton;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___downimg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___letter;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___off_color;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___on_color;
+	float ___movespeed;
+};
+struct JumpingButtons_tE6808DDCD5E16F50999AD7D189986D5FC5B71209  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* ___upbutton;
 	Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* ___downbutton;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___letter;
 	float ___movespeed;
@@ -1575,8 +1589,8 @@ struct TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E  : public TMP_Text_
 };
 struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields
 {
-	__StaticArrayInitTypeSizeU3D274_t3DB24C9CFC77B32FEFCA0D5C1C6151812A660818 ___03FC2FA9B495019F1FA7B335E7524F1D9C17308B8BAE04F0879B8DCCD61B0C62;
-	__StaticArrayInitTypeSizeU3D138_tD5A7318E00B672287A4775831623B21A69B688D0 ___72277EC29EFEF22E146AB850C9BB1E356B184E223596E2029ED6BC8A78B074D0;
+	__StaticArrayInitTypeSizeU3D158_t6219F84990347CE2106D09E19D77AC87E67A0D93 ___8F7E241721EB981E9436FE43F98630D658B62FEB8C172730BBAEFC3C69966218;
+	__StaticArrayInitTypeSizeU3D315_t31C4B15922AAC720FE1B7F1910E24F69F2E79FC6 ___A8E290E82CD414C1F297AA719912D4C580D7958B0F1A4E47E297FE891827C054;
 };
 struct String_t_StaticFields
 {
@@ -1907,7 +1921,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonManager_Start_m1031E938A2FB8D85F99
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:15>
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:23>
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_0 = __this->___upbutton;
 		NullCheck(L_0);
 		ToggleEvent_t88B31268F9D6D1882E4F921B14704FB9F7047F02* L_1 = L_0->___onValueChanged;
@@ -1915,15 +1929,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonManager_Start_m1031E938A2FB8D85F99
 		UnityAction_1__ctor_m11A393DB3C00474B4520978077E444DB6E4418DD(L_2, __this, (intptr_t)((void*)ButtonManager_buta_mCAE35C622154872663F3698B0D59979AB8CC0150_RuntimeMethod_var), NULL);
 		NullCheck(L_1);
 		UnityEvent_1_AddListener_mE9367D4B3AA4C323EE7C35FA18CF2D8A142F43FD(L_1, L_2, UnityEvent_1_AddListener_mE9367D4B3AA4C323EE7C35FA18CF2D8A142F43FD_RuntimeMethod_var);
-		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:16>
-		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_3 = __this->___downbutton;
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:24>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_3 = __this->___upimg;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4 = __this->___off_color;
 		NullCheck(L_3);
-		ToggleEvent_t88B31268F9D6D1882E4F921B14704FB9F7047F02* L_4 = L_3->___onValueChanged;
-		UnityAction_1_t8EC357AF4FBD2A0C4A575C4BBD0B3A81029E43A9* L_5 = (UnityAction_1_t8EC357AF4FBD2A0C4A575C4BBD0B3A81029E43A9*)il2cpp_codegen_object_new(UnityAction_1_t8EC357AF4FBD2A0C4A575C4BBD0B3A81029E43A9_il2cpp_TypeInfo_var);
-		UnityAction_1__ctor_m11A393DB3C00474B4520978077E444DB6E4418DD(L_5, __this, (intptr_t)((void*)ButtonManager_butb_m5F961D7611352EBA96F904366CD6FC155C6024D7_RuntimeMethod_var), NULL);
-		NullCheck(L_4);
-		UnityEvent_1_AddListener_mE9367D4B3AA4C323EE7C35FA18CF2D8A142F43FD(L_4, L_5, UnityEvent_1_AddListener_mE9367D4B3AA4C323EE7C35FA18CF2D8A142F43FD_RuntimeMethod_var);
-		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:17>
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_3, L_4);
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:26>
+		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_5 = __this->___downbutton;
+		NullCheck(L_5);
+		ToggleEvent_t88B31268F9D6D1882E4F921B14704FB9F7047F02* L_6 = L_5->___onValueChanged;
+		UnityAction_1_t8EC357AF4FBD2A0C4A575C4BBD0B3A81029E43A9* L_7 = (UnityAction_1_t8EC357AF4FBD2A0C4A575C4BBD0B3A81029E43A9*)il2cpp_codegen_object_new(UnityAction_1_t8EC357AF4FBD2A0C4A575C4BBD0B3A81029E43A9_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_m11A393DB3C00474B4520978077E444DB6E4418DD(L_7, __this, (intptr_t)((void*)ButtonManager_butb_m5F961D7611352EBA96F904366CD6FC155C6024D7_RuntimeMethod_var), NULL);
+		NullCheck(L_6);
+		UnityEvent_1_AddListener_mE9367D4B3AA4C323EE7C35FA18CF2D8A142F43FD(L_6, L_7, UnityEvent_1_AddListener_mE9367D4B3AA4C323EE7C35FA18CF2D8A142F43FD_RuntimeMethod_var);
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:27>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_8 = __this->___downimg;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9 = __this->___off_color;
+		NullCheck(L_8);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_8, L_9);
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:28>
 		return;
 	}
 }
@@ -1931,23 +1955,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonManager_Start_m1031E938A2FB8D85F99
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonManager_buta_mCAE35C622154872663F3698B0D59979AB8CC0150 (ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8* __this, bool ___0_isOn, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:21>
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:32>
 		bool L_0 = ___0_isOn;
 		if (!L_0)
 		{
-			goto IL_000f;
+			goto IL_0032;
 		}
 	}
 	{
-		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:22>
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:33>
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_1 = __this->___downbutton;
 		NullCheck(L_1);
 		Toggle_set_isOn_m61D6AB073668E87530A9F49D990A3B3631D2061F(L_1, (bool)0, NULL);
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:34>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_2 = __this->___downimg;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = __this->___off_color;
+		NullCheck(L_2);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_2, L_3);
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:35>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_4 = __this->___upimg;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_5 = __this->___on_color;
+		NullCheck(L_4);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_4, L_5);
+		return;
 	}
 
-IL_000f:
+IL_0032:
 	{
-		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:24>
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:38>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_6 = __this->___upimg;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_7 = __this->___off_color;
+		NullCheck(L_6);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_6, L_7);
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:40>
 		return;
 	}
 }
@@ -1955,23 +1995,39 @@ IL_000f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonManager_butb_m5F961D7611352EBA96F904366CD6FC155C6024D7 (ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8* __this, bool ___0_isOn, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:28>
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:44>
 		bool L_0 = ___0_isOn;
 		if (!L_0)
 		{
-			goto IL_000f;
+			goto IL_0032;
 		}
 	}
 	{
-		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:29>
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:45>
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_1 = __this->___upbutton;
 		NullCheck(L_1);
 		Toggle_set_isOn_m61D6AB073668E87530A9F49D990A3B3631D2061F(L_1, (bool)0, NULL);
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:46>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_2 = __this->___upimg;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = __this->___off_color;
+		NullCheck(L_2);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_2, L_3);
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:47>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_4 = __this->___downimg;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_5 = __this->___on_color;
+		NullCheck(L_4);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_4, L_5);
+		return;
 	}
 
-IL_000f:
+IL_0032:
 	{
-		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:31>
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:50>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_6 = __this->___downimg;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_7 = __this->___off_color;
+		NullCheck(L_6);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_6, L_7);
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:52>
 		return;
 	}
 }
@@ -1979,18 +2035,18 @@ IL_000f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonManager_Update_m8A6A02F642A23DDDD0D1C1B1EB563E144AE12590 (ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:35>
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:56>
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_0 = __this->___upbutton;
 		NullCheck(L_0);
 		bool L_1;
 		L_1 = Toggle_get_isOn_m89A609E936CD67F460E336CA8E03C4047BFB6619_inline(L_0, NULL);
 		if (!L_1)
 		{
-			goto IL_0035;
+			goto IL_0034;
 		}
 	}
 	{
-		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:36>
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:57>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___letter;
 		NullCheck(L_2);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
@@ -1999,13 +2055,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonManager_Update_m8A6A02F642A23DDDD0
 		float L_5;
 		L_5 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		NullCheck(L_3);
-		Transform_Translate_mB42A27EE20E123E0B47336F795B62B017489E3F7(L_3, (0.0f), ((float)il2cpp_codegen_multiply(((-L_4)), L_5)), (0.0f), NULL);
+		Transform_Translate_mB42A27EE20E123E0B47336F795B62B017489E3F7(L_3, (0.0f), ((float)il2cpp_codegen_multiply(L_4, L_5)), (0.0f), NULL);
 		return;
 	}
 
-IL_0035:
+IL_0034:
 	{
-		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:38>
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:59>
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_6 = __this->___downbutton;
 		NullCheck(L_6);
 		bool L_7;
@@ -2016,7 +2072,7 @@ IL_0035:
 		}
 	}
 	{
-		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:39>
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:60>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___letter;
 		NullCheck(L_8);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
@@ -2025,12 +2081,12 @@ IL_0035:
 		float L_11;
 		L_11 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		NullCheck(L_9);
-		Transform_Translate_mB42A27EE20E123E0B47336F795B62B017489E3F7(L_9, (0.0f), ((float)il2cpp_codegen_multiply(L_10, L_11)), (0.0f), NULL);
+		Transform_Translate_mB42A27EE20E123E0B47336F795B62B017489E3F7(L_9, (0.0f), ((float)il2cpp_codegen_multiply(((-L_10)), L_11)), (0.0f), NULL);
 	}
 
 IL_0068:
 	{
-		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:41>
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:62>
 		return;
 	}
 }
@@ -2051,6 +2107,91 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonManager__ctor_m7DBD91D2AF27494F6AC
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // Method Definition Index: 92152
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JumpingButtons_Start_mE2404C732E9122C7D46F10D76ED9E8A7996E06E1 (JumpingButtons_tE6808DDCD5E16F50999AD7D189986D5FC5B71209* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JumpingButtons_buta_mF8161C900222FB36A089EA908F434AB48E3393D9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JumpingButtons_butb_mED3579457DE9041DAA58A3BEC168214135B75870_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_t8EC357AF4FBD2A0C4A575C4BBD0B3A81029E43A9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_AddListener_mE9367D4B3AA4C323EE7C35FA18CF2D8A142F43FD_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/JumpingButtons.cs:17>
+		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_0 = __this->___upbutton;
+		NullCheck(L_0);
+		ToggleEvent_t88B31268F9D6D1882E4F921B14704FB9F7047F02* L_1 = L_0->___onValueChanged;
+		UnityAction_1_t8EC357AF4FBD2A0C4A575C4BBD0B3A81029E43A9* L_2 = (UnityAction_1_t8EC357AF4FBD2A0C4A575C4BBD0B3A81029E43A9*)il2cpp_codegen_object_new(UnityAction_1_t8EC357AF4FBD2A0C4A575C4BBD0B3A81029E43A9_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_m11A393DB3C00474B4520978077E444DB6E4418DD(L_2, __this, (intptr_t)((void*)JumpingButtons_buta_mF8161C900222FB36A089EA908F434AB48E3393D9_RuntimeMethod_var), NULL);
+		NullCheck(L_1);
+		UnityEvent_1_AddListener_mE9367D4B3AA4C323EE7C35FA18CF2D8A142F43FD(L_1, L_2, UnityEvent_1_AddListener_mE9367D4B3AA4C323EE7C35FA18CF2D8A142F43FD_RuntimeMethod_var);
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/JumpingButtons.cs:19>
+		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_3 = __this->___downbutton;
+		NullCheck(L_3);
+		ToggleEvent_t88B31268F9D6D1882E4F921B14704FB9F7047F02* L_4 = L_3->___onValueChanged;
+		UnityAction_1_t8EC357AF4FBD2A0C4A575C4BBD0B3A81029E43A9* L_5 = (UnityAction_1_t8EC357AF4FBD2A0C4A575C4BBD0B3A81029E43A9*)il2cpp_codegen_object_new(UnityAction_1_t8EC357AF4FBD2A0C4A575C4BBD0B3A81029E43A9_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_m11A393DB3C00474B4520978077E444DB6E4418DD(L_5, __this, (intptr_t)((void*)JumpingButtons_butb_mED3579457DE9041DAA58A3BEC168214135B75870_RuntimeMethod_var), NULL);
+		NullCheck(L_4);
+		UnityEvent_1_AddListener_mE9367D4B3AA4C323EE7C35FA18CF2D8A142F43FD(L_4, L_5, UnityEvent_1_AddListener_mE9367D4B3AA4C323EE7C35FA18CF2D8A142F43FD_RuntimeMethod_var);
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/JumpingButtons.cs:20>
+		return;
+	}
+}
+// Method Definition Index: 92153
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JumpingButtons_buta_mF8161C900222FB36A089EA908F434AB48E3393D9 (JumpingButtons_tE6808DDCD5E16F50999AD7D189986D5FC5B71209* __this, bool ___0_isOn, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/JumpingButtons.cs:24>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___letter;
+		NullCheck(L_0);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
+		L_1 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_0, NULL);
+		float L_2 = __this->___movespeed;
+		float L_3;
+		L_3 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		NullCheck(L_1);
+		Transform_Translate_mB42A27EE20E123E0B47336F795B62B017489E3F7(L_1, (0.0f), ((float)il2cpp_codegen_multiply(((-L_2)), L_3)), (0.0f), NULL);
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/JumpingButtons.cs:25>
+		return;
+	}
+}
+// Method Definition Index: 92154
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JumpingButtons_butb_mED3579457DE9041DAA58A3BEC168214135B75870 (JumpingButtons_tE6808DDCD5E16F50999AD7D189986D5FC5B71209* __this, bool ___0_isOn, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/JumpingButtons.cs:29>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___letter;
+		NullCheck(L_0);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
+		L_1 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_0, NULL);
+		float L_2 = __this->___movespeed;
+		float L_3;
+		L_3 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		NullCheck(L_1);
+		Transform_Translate_mB42A27EE20E123E0B47336F795B62B017489E3F7(L_1, (0.0f), ((float)il2cpp_codegen_multiply(L_2, L_3)), (0.0f), NULL);
+		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/JumpingButtons.cs:30>
+		return;
+	}
+}
+// Method Definition Index: 92155
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JumpingButtons__ctor_m81F002D87E3E0F91EC5E52FDAD331C0ACA539E6E (JumpingButtons_tE6808DDCD5E16F50999AD7D189986D5FC5B71209* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 92156
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Letter__ctor_m9DC949C5BBDFCD68699909CCBF9C038DAA22CA50 (Letter_t83D09CA3E6072C9F786F1B3E362B451913633B71* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2066,7 +2207,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Letter__ctor_m9DC949C5BBDFCD68699909CCBF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92153
+// Method Definition Index: 92157
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LetterAdjust_Start_m7CA2D9FD55EB4558FA6E6A25F90ED0658A6B04EF (LetterAdjust_t0DF30F7890AC257146F38ACE43A19B72D5F81C67* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2090,7 +2231,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LetterAdjust_Start_m7CA2D9FD55EB4558FA6E
 		return;
 	}
 }
-// Method Definition Index: 92154
+// Method Definition Index: 92158
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* LetterAdjust_CollectSegments_m310292896B28CCFC320E889D46C9274567AFF5BE (LetterAdjust_t0DF30F7890AC257146F38ACE43A19B72D5F81C67* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2109,7 +2250,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* LetterAdjust_CollectSegments_m
 		return L_1;
 	}
 }
-// Method Definition Index: 92155
+// Method Definition Index: 92159
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LetterAdjust_changeFontSize_m1E9DD9F96448E78B0C3A8F8952BBE36CE86BE062 (LetterAdjust_t0DF30F7890AC257146F38ACE43A19B72D5F81C67* __this, float ___0_fontSize, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -2123,7 +2264,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LetterAdjust_changeFontSize_m1E9DD9F9644
 		TextMeshProU5BU5D_tC24D27573EBF908D9D2D4FD451C3FD1A3817FC28* L_0 = __this->___segments;
 		V_1 = L_0;
 		V_2 = 0;
-		goto IL_0029;
+		goto IL_002f;
 	}
 
 IL_0011:
@@ -2146,12 +2287,12 @@ IL_0011:
 		NullCheck(L_8);
 		float L_9;
 		L_9 = VirtualFuncInvoker0< float >::Invoke(85, L_8);
-		V_0 = ((float)il2cpp_codegen_add(L_7, L_9));
+		V_0 = ((float)il2cpp_codegen_add(L_7, ((float)il2cpp_codegen_add(L_9, (0.5f)))));
 		int32_t L_10 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_10, 1));
 	}
 
-IL_0029:
+IL_002f:
 	{
 		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/LetterAdjust.cs:28>
 		int32_t L_11 = V_2;
@@ -2172,7 +2313,7 @@ IL_0029:
 		return;
 	}
 }
-// Method Definition Index: 92156
+// Method Definition Index: 92160
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* LetterAdjust_ExportSelectedSegment_m5FCA7CA4688A049993FB6FF58314ACFCDBAC5D52 (LetterAdjust_t0DF30F7890AC257146F38ACE43A19B72D5F81C67* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2276,7 +2417,7 @@ IL_0048:
 		return L_18;
 	}
 }
-// Method Definition Index: 92157
+// Method Definition Index: 92161
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* LetterAdjust_ExportAllSelectedSegments_m04AD027B878451D15434C242FCF6AA2408ADB910 (LetterAdjust_t0DF30F7890AC257146F38ACE43A19B72D5F81C67* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2394,7 +2535,7 @@ IL_006e:
 		return L_24;
 	}
 }
-// Method Definition Index: 92158
+// Method Definition Index: 92162
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LetterAdjust__ctor_mB67E7FA39CFB203DC86823E2BA636A4B2ED56217 (LetterAdjust_t0DF30F7890AC257146F38ACE43A19B72D5F81C67* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2412,7 +2553,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LetterAdjust__ctor_mB67E7FA39CFB203DC868
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92159
+// Method Definition Index: 92163
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCollectSegmentsU3Ed__5__ctor_mD342F98257EF6A97CADA42A1E77D097D846D4F8D (U3CCollectSegmentsU3Ed__5_t35F2AD255B2B2D3C9F201DABE2FFF3C8F140670F* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -2422,14 +2563,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCollectSegmentsU3Ed__5__ctor_mD342F98
 		return;
 	}
 }
-// Method Definition Index: 92160
+// Method Definition Index: 92164
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCollectSegmentsU3Ed__5_System_IDisposable_Dispose_m92F93B38A46480C8AA2672318D49E2BB756C0C88 (U3CCollectSegmentsU3Ed__5_t35F2AD255B2B2D3C9F201DABE2FFF3C8F140670F* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 92161
+// Method Definition Index: 92165
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCollectSegmentsU3Ed__5_MoveNext_m1A8DABDD4A06E22124B5CD1C1088603A6CABFD57 (U3CCollectSegmentsU3Ed__5_t35F2AD255B2B2D3C9F201DABE2FFF3C8F140670F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2505,7 +2646,7 @@ IL_0037:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 92162
+// Method Definition Index: 92166
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCollectSegmentsU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m57032A4BC5F477D56AFA64FA7F6709D052B899BD (U3CCollectSegmentsU3Ed__5_t35F2AD255B2B2D3C9F201DABE2FFF3C8F140670F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2513,7 +2654,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCollectSegmentsU3Ed__5_Syst
 		return L_0;
 	}
 }
-// Method Definition Index: 92163
+// Method Definition Index: 92167
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCollectSegmentsU3Ed__5_System_Collections_IEnumerator_Reset_mC6F487A0C30D46128D845C79663629C631B9841E (U3CCollectSegmentsU3Ed__5_t35F2AD255B2B2D3C9F201DABE2FFF3C8F140670F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2522,7 +2663,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCollectSegmentsU3Ed__5_System_Collect
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CCollectSegmentsU3Ed__5_System_Collections_IEnumerator_Reset_mC6F487A0C30D46128D845C79663629C631B9841E_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 92164
+// Method Definition Index: 92168
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCollectSegmentsU3Ed__5_System_Collections_IEnumerator_get_Current_m55D037366D6CB127D2D3F0400BD32AA3F10AA356 (U3CCollectSegmentsU3Ed__5_t35F2AD255B2B2D3C9F201DABE2FFF3C8F140670F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2538,7 +2679,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCollectSegmentsU3Ed__5_Syst
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92165
+// Method Definition Index: 92169
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LetterGenerator_Start_mBE3DECCBDC231E475727EAAC91D83C931376C636 (LetterGenerator_tD86778E9ACA1E783C8941DD83041EF62082C6D36* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2555,7 +2696,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LetterGenerator_Start_mBE3DECCBDC231E475
 		return;
 	}
 }
-// Method Definition Index: 92166
+// Method Definition Index: 92170
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LetterGenerator_spawnSegments_m8B8C05AFAB4C0FFADE0869F67F2C0EE7194E9DE7 (LetterGenerator_tD86778E9ACA1E783C8941DD83041EF62082C6D36* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2623,7 +2764,7 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 92167
+// Method Definition Index: 92171
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LetterGenerator__ctor_mAFCDB72AEE6DBA6711F8B6E0E4D41C95C355CE70 (LetterGenerator_tD86778E9ACA1E783C8941DD83041EF62082C6D36* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2639,7 +2780,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LetterGenerator__ctor_mAFCDB72AEE6DBA671
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92168
+// Method Definition Index: 92172
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ToggleColorDriver_Start_mC4DFDAC4EEC229A76287A513FBC505290ADA1168 (ToggleColorDriver_tCDA7E6EF712E40086EB0AA5EF4A4F672B8BB1C47* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2669,7 +2810,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ToggleColorDriver_Start_mC4DFDAC4EEC229A
 		return;
 	}
 }
-// Method Definition Index: 92169
+// Method Definition Index: 92173
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ToggleColorDriver_SetHover_m58F6C62796129E5C883563C1245E95B71E2FEAE2 (ToggleColorDriver_tCDA7E6EF712E40086EB0AA5EF4A4F672B8BB1C47* __this, bool ___0_hover, const RuntimeMethod* method) 
 {
 	{
@@ -2686,7 +2827,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ToggleColorDriver_SetHover_m58F6C6279612
 		return;
 	}
 }
-// Method Definition Index: 92170
+// Method Definition Index: 92174
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ToggleColorDriver_UpdateColor_m5DE2239E6AF4A1BC115A17C752BDD002F21D0B38 (ToggleColorDriver_tCDA7E6EF712E40086EB0AA5EF4A4F672B8BB1C47* __this, bool ___0_isOn, const RuntimeMethod* method) 
 {
 	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* G_B4_0 = NULL;
@@ -2745,7 +2886,7 @@ IL_0031:
 		return;
 	}
 }
-// Method Definition Index: 92171
+// Method Definition Index: 92175
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ToggleColorDriver__ctor_mA3228B70AB76837DFA524F44241968FECD9C7A2E (ToggleColorDriver_tCDA7E6EF712E40086EB0AA5EF4A4F672B8BB1C47* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2773,7 +2914,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ToggleColorDriver__ctor_mA3228B70AB76837
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92172
+// Method Definition Index: 92176
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Pokecube_up_mC6ED924EC0A86489E67FFF141F4940E16C6944C1 (Pokecube_t04C1BF40CCB46647E77B3BF1E17345472DAB6813* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -2805,7 +2946,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Pokecube_up_mC6ED924EC0A86489E67FFF141F4
 		return;
 	}
 }
-// Method Definition Index: 92173
+// Method Definition Index: 92177
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Pokecube__ctor_m9914E26104685C3852DAE5B6AF944A1A00CE22E5 (Pokecube_t04C1BF40CCB46647E77B3BF1E17345472DAB6813* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2821,7 +2962,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Pokecube__ctor_m9914E26104685C3852DAE5B6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92174
+// Method Definition Index: 92178
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2837,7 +2978,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A90
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92175
+// Method Definition Index: 92179
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2853,41 +2994,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92176
+// Method Definition Index: 92180
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____03FC2FA9B495019F1FA7B335E7524F1D9C17308B8BAE04F0879B8DCCD61B0C62_FieldInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____72277EC29EFEF22E146AB850C9BB1E356B184E223596E2029ED6BC8A78B074D0_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____8F7E241721EB981E9436FE43F98630D658B62FEB8C172730BBAEFC3C69966218_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____A8E290E82CD414C1F297AA719912D4C580D7958B0F1A4E47E297FE891827C054_FieldInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E));
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)274));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)315));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
-		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____03FC2FA9B495019F1FA7B335E7524F1D9C17308B8BAE04F0879B8DCCD61B0C62_FieldInfo_var) };
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____A8E290E82CD414C1F297AA719912D4C580D7958B0F1A4E47E297FE891827C054_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
 		(&V_0)->___FilePathsData = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)138));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)158));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
-		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____72277EC29EFEF22E146AB850C9BB1E356B184E223596E2029ED6BC8A78B074D0_FieldInfo_var) };
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____8F7E241721EB981E9436FE43F98630D658B62FEB8C172730BBAEFC3C69966218_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
 		(&V_0)->___TypesData = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
-		(&V_0)->___TotalFiles = 7;
-		(&V_0)->___TotalTypes = 8;
+		(&V_0)->___TotalFiles = 8;
+		(&V_0)->___TotalTypes = ((int32_t)9);
 		(&V_0)->___IsEditorOnly = (bool)0;
 		MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E L_6 = V_0;
 		return L_6;
 	}
 }
-// Method Definition Index: 92177
+// Method Definition Index: 92181
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
 {
 	{
