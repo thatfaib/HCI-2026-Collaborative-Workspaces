@@ -6,6 +6,7 @@ using System.Collections;
 public class LetterAdjust : MonoBehaviour
 {
     public RectTransform rectTransform;
+    public Transform parent;
     public float textSize = 3;
     public TextMeshPro[] segments;
     public Toggle[] segmentToggles;
@@ -31,6 +32,7 @@ public class LetterAdjust : MonoBehaviour
             requiredHeight += segment.preferredHeight + 0.5f;
         }
         rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical,requiredHeight);
+        rectTransform.transform.position = new Vector3(parent.position.x,-2,parent.transform.position.z+0.1f);
    }
     
     [ContextMenu("ExportOne")]

@@ -75,6 +75,7 @@ GameObject:
   - component: {fileID: 3735134278700634424}
   - component: {fileID: 2453189758792687838}
   - component: {fileID: 1646257024335979064}
+  - component: {fileID: 4655466965735546897}
   m_Layer: 0
   m_Name: '[BuildingBlock] Camera Rig'
   m_TagString: Untagged
@@ -246,6 +247,18 @@ MonoBehaviour:
   - <Keyboard>/leftAlt
   - <Keyboard>/rightAlt
   - <Keyboard>/f2
+--- !u!114 &4655466965735546897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446670393462006444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e7c470a0c784a7f81b32ddbe647039, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &1798328349442663052
 GameObject:
   m_ObjectHideFlags: 0
