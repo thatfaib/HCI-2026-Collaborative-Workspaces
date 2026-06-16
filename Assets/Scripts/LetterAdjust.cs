@@ -13,7 +13,7 @@ public class LetterAdjust : MonoBehaviour
     void Start()
     {
         rectTransform = GetComponent<RectTransform>();
-        StartCoroutine(CollectSegments());
+        //StartCoroutine(CollectSegments());
     }
     public IEnumerator CollectSegments()
     {
@@ -21,7 +21,7 @@ public class LetterAdjust : MonoBehaviour
 
         segments = GetComponentsInChildren<TextMeshPro>();
         segmentToggles = GetComponentsInChildren<Toggle>();
-        resize();
+        resizePanel();
     }
 
    void changeFontSize(float fontSize){
@@ -31,15 +31,15 @@ public class LetterAdjust : MonoBehaviour
         }
        }
 
-    public void resize() {
+    public void resizePanel() {
         float requiredHeight = 0;
         foreach (var segment in segments)
         {
             requiredHeight += segment.preferredHeight + 0.5f;
         }
         rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical,requiredHeight);
+        Debug.Log(requiredHeight);
         rectTransform.transform.position = new Vector3(rectTransform.transform.position.x,-1.75f,rectTransform.transform.position.z);
-   
    }
     
     [ContextMenu("ExportOne")]
