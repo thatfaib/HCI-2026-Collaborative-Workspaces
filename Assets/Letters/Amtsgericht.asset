@@ -15,7 +15,8 @@ MonoBehaviour:
   title: Amtsgericht
   heading: 
   segments:
-  - 'Amtsgericht Musterstadt Abteilung Betreuungssachen Gerichtsplatz 1 12345 Musterstadt '
+  - 'Amtsgericht Musterstadt \nAbteilung Betreuungssachen \nGerichtsplatz 1 \n12345
+    Musterstadt '
   - 'Aktenzeichen: 17 XVII 245/26 '
   - 'Datum: 12.06.2026 '
   - "Betreff: Anh\xF6rung im Verfahren zur Pr\xFCfung einer rechtlichen Betreuung"

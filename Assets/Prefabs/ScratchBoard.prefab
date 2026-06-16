@@ -51,6 +51,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   textSegment: {fileID: 3304799767826570463, guid: f947cb683e78c6641bba0171fc34f0cc, type: 3}
+  letterManager: {fileID: 2999571645104203830}
+  segments: []
 --- !u!114 &4248117977328041063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72,11 +74,11 @@ MonoBehaviour:
   m_Spacing: 0
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
-  m_ChildControlWidth: 0
-  m_ChildControlHeight: 0
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
-  m_ReverseArrangement: 0
+  m_ReverseArrangement: 1
 --- !u!114 &2999571645104203830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92,3 +94,4 @@ MonoBehaviour:
   textSize: 3
   segments: []
   segmentToggles: []
+  rectTransform: {fileID: 4802586520377610674}

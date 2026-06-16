@@ -3,45 +3,50 @@ using TMPro;
 using UnityEngine.UI;   
 using System.Collections;
 
-public class LetterAdjust : MonoBehaviour
+public class LetterManager : MonoBehaviour
 {
-    RectTransform rectTransform;
     public float textSize = 3;
     public TextMeshPro[] segments;
     public Toggle[] segmentToggles;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    public RectTransform rectTransform;
+    VerticalLayoutGroup layoutGroup;
+    GameObject Panel;
+
     void Start()
     {
+        Panel = gameObject.transform.parent.gameObject;
+        layoutGroup = GetComponent<VerticalLayoutGroup>();
         rectTransform = GetComponent<RectTransform>();
-        //StartCoroutine(CollectSegments());
     }
-    public IEnumerator CollectSegments()
-    {
-        yield return new WaitForSeconds(0.2f);
-
-        segments = GetComponentsInChildren<TextMeshPro>();
-        segmentToggles = GetComponentsInChildren<Toggle>();
-        resizePanel();
-    }
-
-   void changeFontSize(float fontSize){
+    void changeFontSize(float fontSize){
         foreach (var segment in segments)
         {
             segment.fontSize = fontSize;
         }
-       }
-
-    public void resizePanel() {
-        float requiredHeight = 0;
-        foreach (var segment in segments)
-        {
-            requiredHeight += segment.preferredHeight + 0.5f;
-        }
-        rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical,requiredHeight);
-        Debug.Log(requiredHeight);
-        rectTransform.transform.position = new Vector3(rectTransform.transform.position.x,-1.75f,rectTransform.transform.position.z);
-   }
+    }
     
+    public void resizeRect() {
+        segments = GetComponentsInChildren<TextMeshPro>();
+        //segmentToggles = GetComponentsInChildren<Toggle>();
+        LayoutRebuilder.ForceRebuildLayoutImmediate(rectTransform);
+        float requiredHeight = LayoutUtility.GetPreferredHeight(rectTransform) * 1.2f;
+        rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical,requiredHeight); 
+   }
+
+   public void alignRectTop()
+    {   
+        LayoutRebuilder.ForceRebuildLayoutImmediate(rectTransform);
+        RectTransform panelRectTransform =  Panel.GetComponent<RectTransform>();
+        LayoutRebuilder.ForceRebuildLayoutImmediate(panelRectTransform);
+        float textheight = rectTransform.rect.height;
+        float panelheight= panelRectTransform.rect.height;
+
+        float z = panelheight * 0.5f - textheight * 0.5f;
+
+        rectTransform.localPosition = new Vector3(rectTransform.localPosition.x,rectTransform.localPosition.y,-z+0.5f);  
+    }
+
     [ContextMenu("ExportOne")]
     public string ExportSelectedSegment(){
         string message = "Ich verstehe folgenden Text nicht. Kannst du es in einfacher Sprache erklären? : \n";
@@ -72,4 +77,7 @@ public class LetterAdjust : MonoBehaviour
         Debug.Log(message);
         return message;
     }
+    
+
 }
+

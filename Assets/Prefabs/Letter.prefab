@@ -32,10 +32,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 7119234735151479043}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 180}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.063, y: -0}
-  m_SizeDelta: {x: 9.1605, y: 1.8834}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 9.1605, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &9083182687472560121
 MeshRenderer:
@@ -192,9 +192,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7119234735151479043}
+  - component: {fileID: 6675787391899805174}
   - component: {fileID: 8766358171980913803}
   - component: {fileID: 5339063812573807363}
-  - component: {fileID: 6675787391899805174}
   - component: {fileID: 9027607091188451196}
   - component: {fileID: 2799987173778347715}
   - component: {fileID: 6719947390523018879}
@@ -226,6 +226,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0.05}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &6675787391899805174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5516932507756536770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2ca11db4debd4d1dbcfbb465f619294, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  textSize: 3
+  segments: []
+  segmentToggles: []
+  rectTransform: {fileID: 0}
 --- !u!114 &8766358171980913803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -239,8 +255,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LetterGenerator
   letter: {fileID: 11400000, guid: e8cee6bb11e354f4294623d52eeeecc0, type: 2}
+  letterManager: {fileID: 6675787391899805174}
   titleSegment: {fileID: 5636578424181508574}
   textSegment: {fileID: 3304799767826570463, guid: f947cb683e78c6641bba0171fc34f0cc, type: 3}
+  segments: []
 --- !u!114 &5339063812573807363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -267,22 +285,6 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
---- !u!114 &6675787391899805174
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5516932507756536770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2ca11db4debd4d1dbcfbb465f619294, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  rectTransform: {fileID: 0}
-  textSize: 3
-  segments: []
-  segmentToggles: []
 --- !u!223 &9027607091188451196
 Canvas:
   m_ObjectHideFlags: 0

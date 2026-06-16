@@ -7,18 +7,18 @@ using UnityEngine.UI;
 public class LetterGenerator : MonoBehaviour
 {
     public Letter letter;
+    public LetterManager letterManager;
     public TextMeshPro titleSegment;
-    public GameObject textSegment;
-      
+    public GameObject textSegment;      
     public TextMeshPro[] segments;
-    public Toggle[] segmentToggles; 
 
-    public RectTransform rectTransform;
-    
+    RectTransform rectTransform;
+
     void Start()
     {
-        rectTransform = GetComponent<RectTransform>();
+        letterManager = GetComponent<LetterManager>();
         titleSegment.text = letter.title;
+        
         spawnSegments();
     }
 
@@ -27,25 +27,12 @@ public class LetterGenerator : MonoBehaviour
         {  
             GameObject segmentObject = Instantiate(textSegment,this.transform);
             TextMeshPro segmentText = segmentObject.GetComponent<TextMeshPro>();
-            Toggle _toggle = segmentObject.GetComponentsInChildren<Toggle>()[0];
-
             segmentText.text = segment;
-           }
-        resizeRect();
+        }
+        letterManager.resizeRect();
+        letterManager.alignRectTop();
         return;
     }
     
     
-    public void resizeRect() {
-        segments = GetComponentsInChildren<TextMeshPro>();
-        //segmentToggles = GetComponentsInChildren<Toggle>();
-        float requiredHeight = 0;
-        foreach (var segment in segments)
-        {
-            requiredHeight += segment.preferredHeight + 0.5f;
-        }
-        rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical,requiredHeight);
-        Debug.Log(requiredHeight);
-        rectTransform.transform.position = new Vector3(rectTransform.transform.position.x,0,rectTransform.transform.position.z);
-   }
-}
+}   

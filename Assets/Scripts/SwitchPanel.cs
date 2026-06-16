@@ -40,5 +40,8 @@ public class SwitchPanel : MonoBehaviour
         activePanel.SetActive(false);
         activePanel = panels[id];
         activePanel.SetActive(true);
+        LetterManager letterManager = activePanel.GetComponent<LetterManager>();
+        letterManager.resizeRect();
+        letterManager.alignRectTop();
     }
 }

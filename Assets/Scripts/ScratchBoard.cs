@@ -4,24 +4,30 @@ using TMPro;
 public class ScratchBoard : MonoBehaviour
 {
     public GameObject textSegment;
-    LetterAdjust letterAdjust;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public LetterManager letterManager;
+
+    public TextMeshPro[] segments;
+
     void Start()
     {
-        letterAdjust = GetComponent<LetterAdjust>();
+        letterManager = GetComponent<LetterManager>();
+    
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void addText(string text){
-
+        
         GameObject segmentObject = Instantiate(textSegment,this.transform);
         TextMeshPro segmentText = segmentObject.GetComponent<TextMeshPro>();
         segmentText.text = text;
-        StartCoroutine(letterAdjust.CollectSegments());
+        letterManager.resizeRect();
+        letterManager.alignRectTop();
+    }
+
+    public void removeText(int id)
+    {
+        segments = GetComponentsInChildren<TextMeshPro>();   
+        TextMeshPro segmentToRemove = segments[id];
+        Destroy(segmentToRemove.gameObject);       
     }
 }

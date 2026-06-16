@@ -12,6 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec155c40209d75458bccb8773824faf, type: 3}
   m_Name: Amtsgericht_SimpleLangage
   m_EditorClassIdentifier: Assembly-CSharp::Letter
-  title: 
+  title: 'Einladung zu einem Termin beim Amtsgericht '
   heading: 
-  segments: []
+  segments:
+  - Amtsgericht Musterstadt
+  - 'Aktenzeichen: 17 XVII 245/26'
+  - 'Datum: 12.06.2026'
+  - 'Datum: 12.06.2026'
+  - "Worum geht es? Das Gericht pr\xFCft, ob Sie in einigen Bereichen Unterst\xFCtzung
+    ben\xF6tigen. "
+  - "Dabei geht es zum Beispiel um: \\nGesundheitsfragen \\nKontakt mit Beh\xF6rden
+    \\nGeld und Finanzen "
+  - "Das Gericht m\xF6chte mit Ihnen dar\xFCber sprechen."
+  - 'Ihr Termin '
+  - 'Datum: 02.07.2026 \nUhrzeit: 10:30 Uhr \nOrt: Amtsgericht Musterstadt, Raum
+    204 '
+  - Ihre Rechte
+  - "Sie d\xFCrfen eine Person Ihres Vertrauens zum Termin mitbringen. "
+  - "Sie k\xF6nnen dem Gericht auch eine Person nennen, die Sie sich als rechtliche
+    Betreuungsperson w\xFCnschen."
+  - "Das Gericht wird diesen Wunsch bei seiner Entscheidung ber\xFCcksichtigen, wenn
+    das m\xF6glich ist."
+  - "Sie k\xF6nnen au\xDFerdem Einsicht in Ihre Akte beantragen. "
+  - "Das bedeutet: \\nSie d\xFCrfen die Unterlagen zum Verfahren ansehen. "
+  - "Ben\xF6tigen Sie Unterst\xFCtzung? "
+  - "Vielleicht brauchen Sie Unterst\xFCtzung f\xFCr den Termin. "
+  - 'Zum Beispiel: \nLeichte Sprache \neine Begleitperson \nandere Hilfen '
+  - 'Bitte informieren Sie das Gericht rechtzeitig. '
+  - "Wichtig: Formular ausf\xFCllen "
+  - "Bitte f\xFCllen Sie das beigef\xFCgte Formular vollst\xE4ndig aus."
+  - "Senden Sie das Formular sp\xE4testens bis zum \\n25.06.2026 \\nan das Gericht
+    zur\xFCck. len Sie das beigef\xFCgte Formular vollst\xE4ndig aus."
+  - 'Im Formular werden folgende Fragen gestellt '
+  - "Bekommen Sie bereits Unterst\xFCtzung von anderen Personen? \\nIn welchen Bereichen
+    w\xFCnschen Sie Hilfe? \\nM\xF6chten Sie eine bestimmte Betreuungsperson vorschlagen?
+    \\nBrauchen Sie Unterst\xFCtzung im Kontakt mit Beh\xF6rden? \\nBrauchen Sie
+    Unterst\xFCtzung w\xE4hrend des Termins? "
+  - "Wenn Sie den Termin nicht wahrnehmen k\xF6nnen "
+  - "Falls Sie krank sind oder einen anderen wichtigen Grund haben, informieren Sie
+    das Gericht bitte so schnell wie m\xF6glich schriftlich. "
+  - 'Warum ist das wichtig? '
+  - "Das Gericht entscheidet auf Grundlage der vorhandenen Informationen. Deshalb
+    ist es wichtig, dass das Formular rechtzeitig zur\xFCckgeschickt wird."
+  - 'Fragen? '
