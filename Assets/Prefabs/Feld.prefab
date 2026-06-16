@@ -152,8 +152,8 @@ MonoBehaviour:
   microphoneRecord: {fileID: 957651529205902450}
   outputText: {fileID: 8339748959845233047}
   mic: {fileID: 200336796941219325}
-  offColor: {r: 0, g: 0.23308277, b: 1, a: 0.6156863}
-  onColor: {r: 1, g: 0, b: 0, a: 0.57254905}
+  offColor: {r: 0, g: 0.4627451, b: 1, a: 0.6156863}
+  onColor: {r: 1, g: 0, b: 0, a: 0.4117647}
   micsprite: {fileID: 2294002421577468411}
 --- !u!1 &1114571763866282989
 GameObject:
@@ -247,8 +247,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 8
-  m_fontSizeBase: 8
+  m_fontSize: 6
+  m_fontSizeBase: 6
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -286,7 +286,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 9.736733, w: 6.8473334}
+  m_margin: {x: 2.253296, y: 0, z: 6.5146875, w: 6.8473334}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -473,7 +473,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: com.whisper.unity::Whisper.WhisperManager
   logLevel: 1
-  modelPath: Whisper/ggml-tiny.bin
+  modelPath: ggml-small.bin
   isModelPathInStreamingAssets: 1
   initOnAwake: 1
   useGpu: 0
@@ -517,7 +517,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6998128035455623172}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.0000023285}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -530,7 +530,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.14952, y: -41.91}
+  m_AnchoredPosition: {x: 0, y: -41.91}
   m_SizeDelta: {x: 100.1, y: 16.38}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &7319861820491025408
@@ -666,8 +666,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 100
+  m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -705,7 +705,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -24.3217, y: -4.872846, z: -27.393602, w: -4.5676265}
+  m_margin: {x: -13.234516, y: -4.872846, z: -16.480917, w: -4.5676265}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0

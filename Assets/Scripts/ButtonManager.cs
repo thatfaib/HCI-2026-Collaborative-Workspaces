@@ -14,6 +14,8 @@ public class ButtonManager : MonoBehaviour
     AudioSource clicknoise;
 
     public GameObject letter;
+    public GameObject simp;
+    public GameObject harald;
 
     public Color off_color;
     public Color on_color;
@@ -60,9 +62,13 @@ public class ButtonManager : MonoBehaviour
     {
         if(upbutton.isOn){
             letter.transform.Translate(0, -movespeed * Time.deltaTime,0);
+            simp.transform.Translate(0, -movespeed * Time.deltaTime,0);
+            harald.transform.Translate(0, -movespeed * Time.deltaTime,0);
         }
         else if(downbutton.isOn){
             letter.transform.Translate(0, movespeed * Time.deltaTime,0);
+            simp.transform.Translate(0, -movespeed * Time.deltaTime,0);
+            harald.transform.Translate(0, -movespeed * Time.deltaTime,0);
         }
     }
 }

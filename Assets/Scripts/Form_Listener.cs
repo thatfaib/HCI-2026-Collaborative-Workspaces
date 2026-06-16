@@ -20,10 +20,12 @@ public class Form_Listener : MonoBehaviour
 
     private void Start()
     {
+        micsprite.color = offColor;
         mic.onValueChanged.AddListener(Toggler);
 
         // Event einmal registrieren
         microphoneRecord.OnRecordStop += OnRecordStop;
+        Debug.Log("WhisperManager: " + whisper);
     }
 
     private void OnDestroy()
@@ -60,13 +62,37 @@ public class Form_Listener : MonoBehaviour
 
     private async void OnRecordStop(AudioChunk recordedAudio)
     {
-        var result = await whisper.GetTextAsync(
-            recordedAudio.Data,
-            recordedAudio.Frequency,
-            recordedAudio.Channels
-        );
+        outputText.text = "STOP erkannt";
 
-        outputText.text = result.Result;
-        Debug.Log(result.Result);
+        try
+        {
+            outputText.text = "Verarbeitung Beginnt";
+
+            var result = await whisper.GetTextAsync(
+                recordedAudio.Data,
+                recordedAudio.Frequency,
+                recordedAudio.Channels
+            );
+
+            outputText.text = "Verarbeitung ist fertig";
+
+            if (result == null)
+            {
+                outputText.text = "Result NULL";
+                return;
+            }
+
+            if (string.IsNullOrEmpty(result.Result))
+            {
+                outputText.text = "Kein Text erkannt";
+                return;
+            }
+
+            outputText.text = result.Result;
+        }
+        catch (System.Exception e)
+        {
+            outputText.text = "FEHLER:\n" + e.Message;
+        }
     }
 }
