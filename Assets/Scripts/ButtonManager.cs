@@ -67,8 +67,8 @@ public class ButtonManager : MonoBehaviour
         }
         else if(downbutton.isOn){
             letter.transform.Translate(0, movespeed * Time.deltaTime,0);
-            simp.transform.Translate(0, -movespeed * Time.deltaTime,0);
-            harald.transform.Translate(0, -movespeed * Time.deltaTime,0);
+            simp.transform.Translate(0, movespeed * Time.deltaTime,0);
+            harald.transform.Translate(0, movespeed * Time.deltaTime,0);
         }
     }
 }

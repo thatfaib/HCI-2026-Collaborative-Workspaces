@@ -9,7 +9,8 @@ public class FormManager : MonoBehaviour
     {
         for(int i = 0; i<toggles.Count; i++)
         {
-            toggles[i].onValueChanged.AddListener((isOn) => togglelistener(i, isOn));
+            int index = i;
+            toggles[i].onValueChanged.AddListener((isOn) => togglelistener(index, isOn));
         }
     }
 

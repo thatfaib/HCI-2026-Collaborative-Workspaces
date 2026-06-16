@@ -18,7 +18,6 @@ MonoBehaviour:
   - Amtsgericht Musterstadt
   - 'Aktenzeichen: 17 XVII 245/26'
   - 'Datum: 12.06.2026'
-  - 'Datum: 12.06.2026'
   - "Worum geht es? Das Gericht pr\xFCft, ob Sie in einigen Bereichen Unterst\xFCtzung
     ben\xF6tigen. "
   - "Dabei geht es zum Beispiel um: \\nGesundheitsfragen \\nKontakt mit Beh\xF6rden
@@ -54,4 +53,3 @@ MonoBehaviour:
   - 'Warum ist das wichtig? '
   - "Das Gericht entscheidet auf Grundlage der vorhandenen Informationen. Deshalb
     ist es wichtig, dass das Formular rechtzeitig zur\xFCckgeschickt wird."
-  - 'Fragen? '

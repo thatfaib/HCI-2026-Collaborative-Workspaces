@@ -100,15 +100,15 @@ static Il2CppMethodPointer s_methodPointers[46] =
 };
 static const int32_t s_InvokerIndices[46] = 
 {
-	31579,
+	31580,
 	18999,
 	18778,
 	14423,
 	14423,
 	14423,
-	31432,
-	31432,
-	31374,
+	31433,
+	31433,
+	31375,
 	18548,
 	14195,
 	18694,
@@ -123,13 +123,13 @@ static const int32_t s_InvokerIndices[46] =
 	18999,
 	18999,
 	18999,
-	30105,
+	30106,
 	14389,
 	18743,
 	14423,
 	26654,
 	18999,
-	31536,
+	31537,
 	3100,
 	2000,
 	18999,
@@ -143,9 +143,9 @@ static const int32_t s_InvokerIndices[46] =
 	4231,
 	18999,
 	26184,
-	29541,
+	29542,
 	24071,
-	31536,
+	31537,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Meta_XR_EnvironmentDepth_CodeGenModule;
 const Il2CppCodeGenModule g_Meta_XR_EnvironmentDepth_CodeGenModule = 
