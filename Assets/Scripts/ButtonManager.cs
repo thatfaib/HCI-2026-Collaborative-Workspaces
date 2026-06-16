@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
+[RequireComponent(typeof(AudioSource))]
 public class ButtonManager : MonoBehaviour
 {
     public Toggle upbutton;
@@ -10,6 +11,7 @@ public class ButtonManager : MonoBehaviour
     public Toggle downbutton;
     public Image downimg;
 
+    public AudioSource clicknoise;
 
     public GameObject letter;
 
@@ -20,6 +22,7 @@ public class ButtonManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        clicknoise = GetComponent<AudioSource>();
         upbutton.onValueChanged.AddListener(buta);
         upimg.color = off_color;
 
@@ -37,6 +40,7 @@ public class ButtonManager : MonoBehaviour
         else{
             upimg.color = off_color;
         }
+        clicknoise.Play(0);
     }
 
     //Ensure that upon the pressing the up button, the down button turns off, also keep track of colors
@@ -49,6 +53,7 @@ public class ButtonManager : MonoBehaviour
         else{
             downimg.color = off_color;
         }
+        clicknoise.Play(0);
     }
     // Update is called once per frame
     void Update()
