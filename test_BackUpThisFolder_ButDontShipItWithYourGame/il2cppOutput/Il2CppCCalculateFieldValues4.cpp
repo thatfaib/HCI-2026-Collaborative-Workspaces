@@ -48,6 +48,7 @@ struct ToggleU5BU5D_t73C98F6CC63F9D7C0B8A26533CE6D7E218D00098;
 struct SectionU5BU5D_t9D3017555FFF42E71BE91904A2486EAF429F24C4;
 struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
 struct ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A;
+struct AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299;
 struct BasePoseProvider_t55E2883DF2C8052200284D64B68471636876FA1D;
 struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
 struct CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7;
@@ -2934,6 +2935,7 @@ struct ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8  : public MonoBeh
 	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___upimg;
 	Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* ___downbutton;
 	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___downimg;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___clicknoise;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___letter;
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___off_color;
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___on_color;
@@ -3590,9 +3592,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable12183[11] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable12185[2] = 
 {
 	static_cast<int32_t>(offsetof(Font_tC95270EA3198038970422D78B74A7F2E218A96B6_StaticFields, ___textureRebuilt)),static_cast<int32_t>(offsetof(Font_tC95270EA3198038970422D78B74A7F2E218A96B6, ___m_FontTextureRebuildCallback)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable12194[8] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable12194[9] = 
 {
-	static_cast<int32_t>(offsetof(ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8, ___upbutton)),static_cast<int32_t>(offsetof(ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8, ___upimg)),static_cast<int32_t>(offsetof(ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8, ___downbutton)),static_cast<int32_t>(offsetof(ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8, ___downimg)),static_cast<int32_t>(offsetof(ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8, ___letter)),static_cast<int32_t>(offsetof(ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8, ___off_color)),static_cast<int32_t>(offsetof(ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8, ___on_color)),static_cast<int32_t>(offsetof(ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8, ___movespeed)),};
+	static_cast<int32_t>(offsetof(ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8, ___upbutton)),static_cast<int32_t>(offsetof(ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8, ___upimg)),static_cast<int32_t>(offsetof(ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8, ___downbutton)),static_cast<int32_t>(offsetof(ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8, ___downimg)),static_cast<int32_t>(offsetof(ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8, ___clicknoise)),static_cast<int32_t>(offsetof(ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8, ___letter)),static_cast<int32_t>(offsetof(ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8, ___off_color)),static_cast<int32_t>(offsetof(ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8, ___on_color)),static_cast<int32_t>(offsetof(ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8, ___movespeed)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable12195[4] = 
 {
 	static_cast<int32_t>(offsetof(JumpingButtons_tE6808DDCD5E16F50999AD7D189986D5FC5B71209, ___upbutton)),static_cast<int32_t>(offsetof(JumpingButtons_tE6808DDCD5E16F50999AD7D189986D5FC5B71209, ___downbutton)),static_cast<int32_t>(offsetof(JumpingButtons_tE6808DDCD5E16F50999AD7D189986D5FC5B71209, ___letter)),static_cast<int32_t>(offsetof(JumpingButtons_tE6808DDCD5E16F50999AD7D189986D5FC5B71209, ___movespeed)),};
