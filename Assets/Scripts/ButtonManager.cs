@@ -11,7 +11,7 @@ public class ButtonManager : MonoBehaviour
     public Toggle downbutton;
     public Image downimg;
 
-    public AudioSource clicknoise;
+    AudioSource clicknoise;
 
     public GameObject letter;
 
@@ -59,10 +59,10 @@ public class ButtonManager : MonoBehaviour
     void Update()
     {
         if(upbutton.isOn){
-            letter.transform.Translate(0, movespeed * Time.deltaTime,0);
+            letter.transform.Translate(0, -movespeed * Time.deltaTime,0);
         }
         else if(downbutton.isOn){
-            letter.transform.Translate(0, -movespeed * Time.deltaTime,0);
+            letter.transform.Translate(0, movespeed * Time.deltaTime,0);
         }
     }
 }

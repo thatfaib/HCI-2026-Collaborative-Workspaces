@@ -2202,7 +2202,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonManager_Update_m8A6A02F642A23DDDD0
 		L_1 = Toggle_get_isOn_m89A609E936CD67F460E336CA8E03C4047BFB6619_inline(L_0, NULL);
 		if (!L_1)
 		{
-			goto IL_0034;
+			goto IL_0035;
 		}
 	}
 	{
@@ -2215,11 +2215,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonManager_Update_m8A6A02F642A23DDDD0
 		float L_5;
 		L_5 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		NullCheck(L_3);
-		Transform_Translate_mB42A27EE20E123E0B47336F795B62B017489E3F7(L_3, (0.0f), ((float)il2cpp_codegen_multiply(L_4, L_5)), (0.0f), NULL);
+		Transform_Translate_mB42A27EE20E123E0B47336F795B62B017489E3F7(L_3, (0.0f), ((float)il2cpp_codegen_multiply(((-L_4)), L_5)), (0.0f), NULL);
 		return;
 	}
 
-IL_0034:
+IL_0035:
 	{
 		//<source_info:/Users/HCI/Desktop/HCI-2026-Collaborative-Workspaces/Assets/Scripts/ButtonManager.cs:64>
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_6 = __this->___downbutton;
@@ -2241,7 +2241,7 @@ IL_0034:
 		float L_11;
 		L_11 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		NullCheck(L_9);
-		Transform_Translate_mB42A27EE20E123E0B47336F795B62B017489E3F7(L_9, (0.0f), ((float)il2cpp_codegen_multiply(((-L_10)), L_11)), (0.0f), NULL);
+		Transform_Translate_mB42A27EE20E123E0B47336F795B62B017489E3F7(L_9, (0.0f), ((float)il2cpp_codegen_multiply(L_10, L_11)), (0.0f), NULL);
 	}
 
 IL_0068:
