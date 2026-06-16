@@ -5,8 +5,7 @@ using System.Collections;
 
 public class LetterAdjust : MonoBehaviour
 {
-    public RectTransform rectTransform;
-    public Transform parent;
+    RectTransform rectTransform;
     public float textSize = 3;
     public TextMeshPro[] segments;
     public Toggle[] segmentToggles;
@@ -16,23 +15,31 @@ public class LetterAdjust : MonoBehaviour
         rectTransform = GetComponent<RectTransform>();
         StartCoroutine(CollectSegments());
     }
-    IEnumerator CollectSegments()
+    public IEnumerator CollectSegments()
     {
         yield return new WaitForSeconds(0.2f);
 
         segments = GetComponentsInChildren<TextMeshPro>();
         segmentToggles = GetComponentsInChildren<Toggle>();
-        changeFontSize(3);
+        resize();
     }
+
    void changeFontSize(float fontSize){
-        float requiredHeight = 0;
         foreach (var segment in segments)
         {
             segment.fontSize = fontSize;
+        }
+       }
+
+    public void resize() {
+        float requiredHeight = 0;
+        foreach (var segment in segments)
+        {
             requiredHeight += segment.preferredHeight + 0.5f;
         }
         rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical,requiredHeight);
-        rectTransform.transform.position = new Vector3(parent.position.x,-2,parent.transform.position.z+0.1f);
+        rectTransform.transform.position = new Vector3(rectTransform.transform.position.x,-1.75f,rectTransform.transform.position.z);
+   
    }
     
     [ContextMenu("ExportOne")]

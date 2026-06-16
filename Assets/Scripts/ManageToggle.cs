@@ -1,10 +1,13 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class ToggleColorDriver : MonoBehaviour
 {
     public Toggle toggle;
     public Image targetImage;
+    public SwitchPanel switchPanel;
+    public ScratchBoard scratchBoard;
 
     public Color offColor = Color.gray;
     public Color onColor = Color.green;
@@ -12,9 +15,12 @@ public class ToggleColorDriver : MonoBehaviour
 
     private bool isHovered;
 
-    void Start()
+    void Awake()
     {
         toggle.onValueChanged.AddListener(UpdateColor);
+        toggle.onValueChanged.AddListener(AddTextToScatchBoard);
+        switchPanel = GameObject.FindGameObjectsWithTag("SwitchPanel")[0].GetComponent<SwitchPanel>();
+        scratchBoard = switchPanel.scratchBoardPanel.GetComponent<ScratchBoard>();
         UpdateColor(toggle.isOn);
     }
 
@@ -34,5 +40,17 @@ public class ToggleColorDriver : MonoBehaviour
         {
             targetImage.color = isOn ? onColor : offColor;
         }
+    }
+
+    void AddTextToScatchBoard(bool isOn){
+        if (isOn){
+            GameObject parent = this.transform.parent.gameObject;
+            string text = parent.GetComponent<TextMeshPro>().text;
+
+            scratchBoard.addText(text);
+        }
+
+
+
     }
 }

@@ -127,6 +127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   toggle: {fileID: 8486726698432771080}
   targetImage: {fileID: 6841497865651401462}
+  scratchBoard: {fileID: 3084862147077244608, guid: b9e7b227d3be44dc08f06e62d8d174db, type: 3}
   offColor: {r: 0.5, g: 0.5, b: 0.5, a: 0}
   onColor: {r: 0, g: 1, b: 0, a: 0.53333336}
   hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 0.4627451}
@@ -529,6 +530,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ToggleColorDriver
   toggle: {fileID: 4933525016562699537}
   targetImage: {fileID: 9217099354046615349}
+  scratchBoard: {fileID: 0}
   offColor: {r: 0.5, g: 0.5, b: 0.5, a: 0}
   onColor: {r: 0, g: 1, b: 0, a: 0.5372549}
   hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 0.4627451}

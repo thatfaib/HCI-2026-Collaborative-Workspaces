@@ -9,12 +9,10 @@ public class LetterGenerator : MonoBehaviour
     public Letter letter;
     public TextMeshPro titleSegment;
     public GameObject textSegment;
-  
-    
+      
     
     void Start()
     {
-        
         titleSegment.text = letter.title;
         spawnSegments();
     }
