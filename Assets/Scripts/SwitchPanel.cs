@@ -23,15 +23,15 @@ public class SwitchPanel : MonoBehaviour
     }    
     
     [ContextMenu("Switch to 0")]
-    void switch0(){
+    public void switch0(){
         switchPanel(0);
     }
     [ContextMenu("Switch to 1")]
-     void switch1(){
+    public void switch1(){
         switchPanel(1);
     }
     [ContextMenu("Switch to 2")]
-     void switch2(){
+    public void switch2(){
         switchPanel(2);
     }
 

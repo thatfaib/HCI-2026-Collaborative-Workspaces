@@ -1,17 +1,25 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System.Numerics;
 
 public class ScrollManager : MonoBehaviour
 {
     public Scrollbar Scroller;
     public GameObject letter;
+    public GameObject simp;
+    public GameObject harald;
 
-    public float scrollval;
+    private float letterheight;
+    private float simpheight;
+    private float haraldheight;
+    private Vector3 letterstart;
+    private Vector3 simpstart;
+    private Vector3 haraldstart;
 
-    private float height;
-    private Vector3 startpos;
-    private RectTransform recter;
+    private RectTransform letterrecter;
+    private RectTransform simprecter;
+    private RectTransform haraldrecter;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -22,15 +30,13 @@ public class ScrollManager : MonoBehaviour
 
     void scrolled(float value)
     {
-        recter.anchoredPosition3D = new Vector3(startpos.x, startpos.y, startpos.z - (height * value));
-        scrollval = value;
+        letterrecter.anchoredPosition3D = new Vector3(startpos.x, startpos.y, startpos.z - (letterheight * value));
     }
 
     IEnumerator starter(){
         yield return new WaitForSeconds(0.5f);
-        recter = letter.GetComponent<RectTransform>();
-        height = recter.rect.height;
-        Debug.Log(height);
-        startpos = recter.anchoredPosition3D;
+        letterrecter = letter.GetComponent<RectTransform>();
+        letterheight = letterrecter.rect.height;
+        letterstart = letterrecter.anchoredPosition3D;
     }
 }
