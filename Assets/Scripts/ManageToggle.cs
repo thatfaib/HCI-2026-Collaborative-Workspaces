@@ -18,7 +18,7 @@ public class ToggleColorDriver : MonoBehaviour
     void Awake()
     {
         toggle.onValueChanged.AddListener(UpdateColor);
-        toggle.onValueChanged.AddListener(AddTextToScratchBoard);
+        toggle.onValueChanged.AddListener(highlightToggle);
         switchPanel = GameObject.FindGameObjectsWithTag("SwitchPanel")[0].GetComponent<SwitchPanel>();
         scratchBoard = switchPanel.scratchBoardPanel.GetComponent<ScratchBoard>();
         UpdateColor(toggle.isOn);
@@ -42,14 +42,16 @@ public class ToggleColorDriver : MonoBehaviour
         }
     }
 
-    void AddTextToScratchBoard(bool isOn){
-        if (isOn){
-            GameObject parent = this.transform.parent.gameObject;
-            string text = parent.GetComponent<TextMeshPro>().text;
+    void highlightToggle(bool isOn){
+        GameObject parent = this.transform.parent.gameObject;
+        string text = parent.GetComponent<TextMeshPro>().text;
 
+        if (isOn){
             scratchBoard.addText(text);
         }
-
+        if (!isOn){            
+            scratchBoard.removeText(text);
+        }
 
 
     }

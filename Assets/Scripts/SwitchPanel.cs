@@ -20,6 +20,7 @@ public class SwitchPanel : MonoBehaviour
         activePanel.SetActive(true);
         scratchBoardPanel = panels[2];
         scratchBoard = scratchBoardPanel.GetComponent<ScratchBoard>();
+        switch0();
     }    
     
     [ContextMenu("Switch to 0")]

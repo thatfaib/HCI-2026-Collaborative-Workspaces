@@ -5,7 +5,7 @@ public class ScratchBoard : MonoBehaviour
 {
     public GameObject textSegment;
     public LetterManager letterManager;
-
+    
     public TextMeshPro[] segments;
 
     void Start()
@@ -16,18 +16,27 @@ public class ScratchBoard : MonoBehaviour
 
 
     public void addText(string text){
-        
+
         GameObject segmentObject = Instantiate(textSegment,this.transform);
         TextMeshPro segmentText = segmentObject.GetComponent<TextMeshPro>();
         segmentText.text = text;
+
         letterManager.resizeRect();
         letterManager.alignRectTop();
     }
 
-    public void removeText(int id)
-    {
-        segments = GetComponentsInChildren<TextMeshPro>();   
-        TextMeshPro segmentToRemove = segments[id];
-        Destroy(segmentToRemove.gameObject);       
+    public void removeText(string text)
+    {   
+        segments = GetComponentsInChildren<TextMeshPro>();
+        foreach (var segment in segments)
+        {
+            if (segment.text == text)
+            {
+                Destroy(segment.gameObject);
+            }
+        }
+        
+        letterManager.resizeRect();
+        letterManager.alignRectTop();
     }
 }

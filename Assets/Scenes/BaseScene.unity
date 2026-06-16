@@ -4315,6 +4315,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3084862147077244608, guid: b9e7b227d3be44dc08f06e62d8d174db, type: 3}
+      propertyPath: textSegment
+      value: 
+      objectReference: {fileID: 3304799767826570463, guid: 814c13e5434312d47ba50c224a2ebdc4, type: 3}
+    - target: {fileID: 3084862147077244608, guid: b9e7b227d3be44dc08f06e62d8d174db, type: 3}
       propertyPath: letterManager
       value: 
       objectReference: {fileID: 899599668}

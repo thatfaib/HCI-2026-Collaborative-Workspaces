@@ -30,12 +30,22 @@ public class ScrollManager : MonoBehaviour
     void scrolled(float value)
     {
         letterrecter.anchoredPosition3D = new Vector3(letterstart.x, letterstart.y, letterstart.z - (letterheight * value));
+        simprecter.anchoredPosition3D = new Vector3(simpstart.x, simpstart.y, simpstart.z - (simpheight * value));
+        haraldrecter.anchoredPosition3D = new Vector3(haraldstart.x, haraldstart.y, haraldstart.z - (haraldheight * value));
     }
 
     IEnumerator starter(){
         yield return new WaitForSeconds(0.5f);
         letterrecter = letter.GetComponent<RectTransform>();
-        letterheight = letterrecter.rect.height;
         letterstart = letterrecter.anchoredPosition3D;
+        letterheight = letterrecter.rect.height;
+        simprecter = simp.GetComponent<RectTransform>();
+        simpstart = simprecter.anchoredPosition3D;
+        simpheight = simprecter.rect.height;
+        haraldrecter = harald.GetComponent<RectTransform>();
+        haraldstart = haraldrecter.anchoredPosition3D;
+        haraldheight = haraldrecter.rect.height;
+        
+        
     }
 }
