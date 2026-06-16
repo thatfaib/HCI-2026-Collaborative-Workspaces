@@ -14,14 +14,36 @@ public class Form_Listener : MonoBehaviour
     public TMP_Text outputText;
     public Toggle mic;
 
-    private void OnEnable()
+    public Color offColor;
+    public Color onColor;
+    public Image micsprite;
+
+    private void Start()
     {
+        mic.onValueChanged.AddListener(Toggler);
+
+        // Event einmal registrieren
         microphoneRecord.OnRecordStop += OnRecordStop;
     }
 
-    private void OnDisable()
+    private void OnDestroy()
     {
+        // sauber entfernen
         microphoneRecord.OnRecordStop -= OnRecordStop;
+    }
+
+    private void Toggler(bool isOn)
+    {
+        if (isOn)
+        {
+            micsprite.color = onColor;
+            StartRecording();
+        }
+        else
+        {
+            micsprite.color = offColor;
+            StopRecording();
+        }
     }
 
     public void StartRecording()

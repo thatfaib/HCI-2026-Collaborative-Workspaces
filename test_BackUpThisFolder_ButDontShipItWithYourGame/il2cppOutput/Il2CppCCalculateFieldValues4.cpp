@@ -403,7 +403,7 @@ struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401  : public RuntimeObject
 	String_t* ___linkText;
 	String_t* ___url;
 };
-struct U3CstarterU3Ed__8_t397F1598A2FF8CBA0F3EDE0253552074E681AC04  : public RuntimeObject
+struct U3CstarterU3Ed__15_t7D0C046965F5AE76314ECF253A4CD5D6B65CB619  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -2941,7 +2941,7 @@ struct UnityWebRequestAsyncOperation_t14BE94558FF3A2CFC2EFBE2511A3A88252042B8C_m
 struct VisualEffectObject_t05DA11D8B79185E02344C115C8075FC95E7623BE  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
 };
-struct U3COnRecordStopU3Ed__8_t63F78091DF06051A81B0402A2F9F04F8EEE2474F 
+struct U3COnRecordStopU3Ed__12_tC462BA834F947FB7964E1DD925B012D6E78BEE1E 
 {
 	int32_t ___U3CU3E1__state;
 	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder;
@@ -3762,6 +3762,9 @@ struct Form_Listener_t32E0313D6621CF0E2CE7518EEA3E9722CDCD02C4  : public MonoBeh
 	MicrophoneRecord_t33D174E25325DD64DB01AB8F1210B409FEC0C89B* ___microphoneRecord;
 	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___outputText;
 	Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* ___mic;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___offColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___onColor;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___micsprite;
 };
 struct JumpingButtons_tE6808DDCD5E16F50999AD7D189986D5FC5B71209  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -3802,10 +3805,17 @@ struct ScrollManager_tF4312E864222769C781B1AA132049AE0AFFE7CA8  : public MonoBeh
 {
 	Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3* ___Scroller;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___letter;
-	float ___scrollval;
-	float ___height;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___startpos;
-	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___recter;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___simp;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___harald;
+	float ___letterheight;
+	float ___simpheight;
+	float ___haraldheight;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___letterstart;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___simpstart;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___haraldstart;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___letterrecter;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___simprecter;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___haraldrecter;
 };
 struct SpeechToFormController_t80E007075DDD1AE4E72AE80B815ECDD9552C0983  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -4363,10 +4373,10 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable12078[9] =
 	static_cast<int32_t>(offsetof(ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8, ___upbutton)),static_cast<int32_t>(offsetof(ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8, ___upimg)),static_cast<int32_t>(offsetof(ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8, ___downbutton)),static_cast<int32_t>(offsetof(ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8, ___downimg)),static_cast<int32_t>(offsetof(ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8, ___clicknoise)),static_cast<int32_t>(offsetof(ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8, ___letter)),static_cast<int32_t>(offsetof(ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8, ___off_color)),static_cast<int32_t>(offsetof(ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8, ___on_color)),static_cast<int32_t>(offsetof(ButtonManager_tB4A98DF10074AA9CF8B331C8AB41A791E21A6AD8, ___movespeed)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable12079[5] = 
 {
-	static_cast<int32_t>(offsetof(U3COnRecordStopU3Ed__8_t63F78091DF06051A81B0402A2F9F04F8EEE2474F, ___U3CU3E1__state)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3COnRecordStopU3Ed__8_t63F78091DF06051A81B0402A2F9F04F8EEE2474F, ___U3CU3Et__builder)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3COnRecordStopU3Ed__8_t63F78091DF06051A81B0402A2F9F04F8EEE2474F, ___U3CU3E4__this)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3COnRecordStopU3Ed__8_t63F78091DF06051A81B0402A2F9F04F8EEE2474F, ___recordedAudio)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3COnRecordStopU3Ed__8_t63F78091DF06051A81B0402A2F9F04F8EEE2474F, ___U3CU3Eu__1)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable12080[4] = 
+	static_cast<int32_t>(offsetof(U3COnRecordStopU3Ed__12_tC462BA834F947FB7964E1DD925B012D6E78BEE1E, ___U3CU3E1__state)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3COnRecordStopU3Ed__12_tC462BA834F947FB7964E1DD925B012D6E78BEE1E, ___U3CU3Et__builder)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3COnRecordStopU3Ed__12_tC462BA834F947FB7964E1DD925B012D6E78BEE1E, ___U3CU3E4__this)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3COnRecordStopU3Ed__12_tC462BA834F947FB7964E1DD925B012D6E78BEE1E, ___recordedAudio)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3COnRecordStopU3Ed__12_tC462BA834F947FB7964E1DD925B012D6E78BEE1E, ___U3CU3Eu__1)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable12080[7] = 
 {
-	static_cast<int32_t>(offsetof(Form_Listener_t32E0313D6621CF0E2CE7518EEA3E9722CDCD02C4, ___whisper)),static_cast<int32_t>(offsetof(Form_Listener_t32E0313D6621CF0E2CE7518EEA3E9722CDCD02C4, ___microphoneRecord)),static_cast<int32_t>(offsetof(Form_Listener_t32E0313D6621CF0E2CE7518EEA3E9722CDCD02C4, ___outputText)),static_cast<int32_t>(offsetof(Form_Listener_t32E0313D6621CF0E2CE7518EEA3E9722CDCD02C4, ___mic)),};
+	static_cast<int32_t>(offsetof(Form_Listener_t32E0313D6621CF0E2CE7518EEA3E9722CDCD02C4, ___whisper)),static_cast<int32_t>(offsetof(Form_Listener_t32E0313D6621CF0E2CE7518EEA3E9722CDCD02C4, ___microphoneRecord)),static_cast<int32_t>(offsetof(Form_Listener_t32E0313D6621CF0E2CE7518EEA3E9722CDCD02C4, ___outputText)),static_cast<int32_t>(offsetof(Form_Listener_t32E0313D6621CF0E2CE7518EEA3E9722CDCD02C4, ___mic)),static_cast<int32_t>(offsetof(Form_Listener_t32E0313D6621CF0E2CE7518EEA3E9722CDCD02C4, ___offColor)),static_cast<int32_t>(offsetof(Form_Listener_t32E0313D6621CF0E2CE7518EEA3E9722CDCD02C4, ___onColor)),static_cast<int32_t>(offsetof(Form_Listener_t32E0313D6621CF0E2CE7518EEA3E9722CDCD02C4, ___micsprite)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable12081[4] = 
 {
 	static_cast<int32_t>(offsetof(JumpingButtons_tE6808DDCD5E16F50999AD7D189986D5FC5B71209, ___upbutton)),static_cast<int32_t>(offsetof(JumpingButtons_tE6808DDCD5E16F50999AD7D189986D5FC5B71209, ___downbutton)),static_cast<int32_t>(offsetof(JumpingButtons_tE6808DDCD5E16F50999AD7D189986D5FC5B71209, ___letter)),static_cast<int32_t>(offsetof(JumpingButtons_tE6808DDCD5E16F50999AD7D189986D5FC5B71209, ___movespeed)),};
@@ -4393,10 +4403,10 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable12089[3] =
 	static_cast<int32_t>(offsetof(ScratchBoard_t78EE69D81A369DA272A499BAEBDB0C512E235D33, ___textSegment)),static_cast<int32_t>(offsetof(ScratchBoard_t78EE69D81A369DA272A499BAEBDB0C512E235D33, ___letterManager)),static_cast<int32_t>(offsetof(ScratchBoard_t78EE69D81A369DA272A499BAEBDB0C512E235D33, ___segments)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable12090[3] = 
 {
-	static_cast<int32_t>(offsetof(U3CstarterU3Ed__8_t397F1598A2FF8CBA0F3EDE0253552074E681AC04, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3CstarterU3Ed__8_t397F1598A2FF8CBA0F3EDE0253552074E681AC04, ___U3CU3E2__current)),static_cast<int32_t>(offsetof(U3CstarterU3Ed__8_t397F1598A2FF8CBA0F3EDE0253552074E681AC04, ___U3CU3E4__this)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable12091[6] = 
+	static_cast<int32_t>(offsetof(U3CstarterU3Ed__15_t7D0C046965F5AE76314ECF253A4CD5D6B65CB619, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3CstarterU3Ed__15_t7D0C046965F5AE76314ECF253A4CD5D6B65CB619, ___U3CU3E2__current)),static_cast<int32_t>(offsetof(U3CstarterU3Ed__15_t7D0C046965F5AE76314ECF253A4CD5D6B65CB619, ___U3CU3E4__this)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable12091[13] = 
 {
-	static_cast<int32_t>(offsetof(ScrollManager_tF4312E864222769C781B1AA132049AE0AFFE7CA8, ___Scroller)),static_cast<int32_t>(offsetof(ScrollManager_tF4312E864222769C781B1AA132049AE0AFFE7CA8, ___letter)),static_cast<int32_t>(offsetof(ScrollManager_tF4312E864222769C781B1AA132049AE0AFFE7CA8, ___scrollval)),static_cast<int32_t>(offsetof(ScrollManager_tF4312E864222769C781B1AA132049AE0AFFE7CA8, ___height)),static_cast<int32_t>(offsetof(ScrollManager_tF4312E864222769C781B1AA132049AE0AFFE7CA8, ___startpos)),static_cast<int32_t>(offsetof(ScrollManager_tF4312E864222769C781B1AA132049AE0AFFE7CA8, ___recter)),};
+	static_cast<int32_t>(offsetof(ScrollManager_tF4312E864222769C781B1AA132049AE0AFFE7CA8, ___Scroller)),static_cast<int32_t>(offsetof(ScrollManager_tF4312E864222769C781B1AA132049AE0AFFE7CA8, ___letter)),static_cast<int32_t>(offsetof(ScrollManager_tF4312E864222769C781B1AA132049AE0AFFE7CA8, ___simp)),static_cast<int32_t>(offsetof(ScrollManager_tF4312E864222769C781B1AA132049AE0AFFE7CA8, ___harald)),static_cast<int32_t>(offsetof(ScrollManager_tF4312E864222769C781B1AA132049AE0AFFE7CA8, ___letterheight)),static_cast<int32_t>(offsetof(ScrollManager_tF4312E864222769C781B1AA132049AE0AFFE7CA8, ___simpheight)),static_cast<int32_t>(offsetof(ScrollManager_tF4312E864222769C781B1AA132049AE0AFFE7CA8, ___haraldheight)),static_cast<int32_t>(offsetof(ScrollManager_tF4312E864222769C781B1AA132049AE0AFFE7CA8, ___letterstart)),static_cast<int32_t>(offsetof(ScrollManager_tF4312E864222769C781B1AA132049AE0AFFE7CA8, ___simpstart)),static_cast<int32_t>(offsetof(ScrollManager_tF4312E864222769C781B1AA132049AE0AFFE7CA8, ___haraldstart)),static_cast<int32_t>(offsetof(ScrollManager_tF4312E864222769C781B1AA132049AE0AFFE7CA8, ___letterrecter)),static_cast<int32_t>(offsetof(ScrollManager_tF4312E864222769C781B1AA132049AE0AFFE7CA8, ___simprecter)),static_cast<int32_t>(offsetof(ScrollManager_tF4312E864222769C781B1AA132049AE0AFFE7CA8, ___haraldrecter)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable12092[5] = 
 {
 	static_cast<int32_t>(offsetof(U3COnRecordStopU3Ed__9_t387461B3FDEE11C4D8BC20D867F33E5B876F4110, ___U3CU3E1__state)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3COnRecordStopU3Ed__9_t387461B3FDEE11C4D8BC20D867F33E5B876F4110, ___U3CU3Et__builder)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3COnRecordStopU3Ed__9_t387461B3FDEE11C4D8BC20D867F33E5B876F4110, ___U3CU3E4__this)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3COnRecordStopU3Ed__9_t387461B3FDEE11C4D8BC20D867F33E5B876F4110, ___recordedAudio)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3COnRecordStopU3Ed__9_t387461B3FDEE11C4D8BC20D867F33E5B876F4110, ___U3CU3Eu__1)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
